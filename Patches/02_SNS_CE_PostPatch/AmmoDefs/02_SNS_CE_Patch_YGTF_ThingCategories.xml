@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingCategoryDef[defName="SNS_ThingCat_Ammo_GenI"]/label</xpath>
+						<value>
+							<label>entropic/gen1</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingCategoryDef[defName="SNS_ThingCat_Ammo_GenII"]/label</xpath>
+						<value>
+							<label>abyssal/gen2</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

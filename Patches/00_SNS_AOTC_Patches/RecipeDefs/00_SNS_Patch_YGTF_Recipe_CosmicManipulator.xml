@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Abyssal Matter Drawing -->
+			<!-- Abyssal Matter Drawing jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_DrawCosmicMatter_Base"]/jobString</xpath>
+				<value>
+					<jobString>Drawing Abyssal Matter</jobString>
+				</value>
+			</li>
+			<!-- Abyssal Matter Drawing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_DrawCosmicMatter"]/label</xpath>
+				<value>
+					<label>Draw Abyssal Matter</label>
+				</value>
+			</li>
+			<!-- Abyssal Matter Drawing descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_DrawCosmicMatter"]/description</xpath>
+				<value>
+					<description>Combine a lot of time and energy into drawing pure, stable Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Alloy Forging -->
+			<!-- Forge Abyssal Alloy jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_Base"]/jobString</xpath>
+				<value>
+					<jobString>Forging Abyssal Alloy</jobString>
+				</value>
+			</li>
+			<!-- Forge Abyssal Alloy from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromstorage"]/label</xpath>
+				<value>
+					<label>Forge and Infuse Abyssal Alloy</label>
+				</value>
+			</li>
+			<!-- Forge Abyssal Alloy from storage descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromstorage"]/description</xpath>
+				<value>
+					<description>Enhance the properties of Starsteel using Uranium and infuse it with stored Abyssal Matter to create the ultimate material./n/nThis is NOT overall faster than making Abyssal Alloy from scratch, you should only choose this if you've already got Abyssal Matter in storage.\n\nNote that the Uranium used in the process is not actually mixed with the metal and is actually used up in the infusion process.</description>
+				</value>
+			</li>
+			<!-- Forge Abyssal Alloy from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_scratch"]/label</xpath>
+				<value>
+					<label>Forge Abyssal Alloy from scratch</label>
+				</value>
+			</li>
+			<!-- Forge Abyssal Alloy from scratch descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_scratch"]/description</xpath>
+				<value>
+					<description>Enhance the properties of Starsteel using Uranium and infuse it with Abyssal Matter to create the ultimate material.\n\nNote that the Uranium used in the process is not actually mixed with the metal and is actually used up in the infusion process.</description>
+				</value>
+			</li>
+			<!-- Forge Abyssal Alloy from Weave label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromweave"]/label</xpath>
+				<value>
+					<label>Forge Abyssal Alloy from Weave</label>
+				</value>
+			</li>
+			<!-- Forge Abyssal Alloy from Weave descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromweave"]/description</xpath>
+				<value>
+					<description>Compress Abyssal Weave back into Abyssal Alloy.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Weave Forging -->
+			<!-- Forge Abyssal Weave jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicWeave_Base"]/jobString</xpath>
+				<value>
+					<jobString>Forging Abyssal Weave</jobString>
+				</value>
+			</li>
+			<!-- Forge Abyssal Weave from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicWeave"]/label</xpath>
+				<value>
+					<label>Forge Abyssal Weave</label>
+				</value>
+			</li>
+			<!-- Forge Abyssal Weave from storage descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicWeave"]/description</xpath>
+				<value>
+					<description>Transform Abyssal Alloy into the ultimate fabric; Abyssal Weave.</description>
+				</value>
+			</li>
+			
+			<!-- Advanced Catalyst Cells Forging -->
+			<!-- Forge Catalyst Cells jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeFuelCells"]/jobString</xpath>
+				<value>
+					<jobString>Forging Abyssal Catalyst Fuel Cells</jobString>
+				</value>
+			</li>
+			<!-- Forge Catalyst Cells from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeFuelCells"]/label</xpath>
+				<value>
+					<label>Forge Abyssal Catalyst Fuel Cells</label>
+				</value>
+			</li>
+			<!-- Forge Catalyst Cells from storage descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeFuelCells"]/description</xpath>
+				<value>
+					<description>Forge Abyssal Catalyst Fuel Cells filled with Abyssal Matter, rather than Uranium.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Medicine x1 crafting -->
+			<!-- Gen2 Medicine jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Creating Abyssal medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Medicine label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII"]/label</xpath>
+				<value>
+					<label>make Abyssal medicine (x1)</label>
+				</value>
+			</li>
+			<!-- Gen2 Medicine descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII"]/description</xpath>
+				<value>
+					<description>Improve either Glitterworld medicine or Stellar medicine with Abyssal Matter and Abyssal Alloy to make an incredibly potent medicine kit.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Medicine x5 crafting -->
+			<!-- Gen2 Medicine x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating Abyssal medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Medicine x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII_bulk"]/label</xpath>
+				<value>
+					<label>make Abyssal medicine (x5)</label>
+				</value>
+			</li>
+			<!-- Gen2 Medicine x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk improve both/either Glitterworld medicine and/or Stellar medicine with Abyssal Matter and Abyssal Alloy to make an incredibly potent medicine kit.\n\nCreating Abyssal medicine in bulk is 15% faster than individually making five kits of Abyssal medicine, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Medicine x1 crafting -->
+			<!-- Gen3 Medicine jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Creating enigmatic medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Medicine label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII"]/label</xpath>
+				<value>
+					<label>make enigmatic medicine (x1)</label>
+				</value>
+			</li>
+			<!-- Gen3 Medicine descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII"]/description</xpath>
+				<value>
+					<description>Improve Abyssal medicine with Eternal Fabric to make the ultimate medicine.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Medicine x5 crafting -->
+			<!-- Gen3 Medicine x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating enigmatic medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Medicine x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII_bulk"]/label</xpath>
+				<value>
+					<label>make enigmatic medicine (x5)</label>
+				</value>
+			</li>
+			<!-- Gen3 Medicine x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk improve Abyssal medicine with Eternal Fabric to make the ultimate medicine\n\nCreating enigmatic medicine in bulk is 15% faster than individually making five kits of enigmatic medicine, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Component x1 crafting -->
+			<!-- Gen2 Component jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Creating abyssal component</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Component label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII"]/label</xpath>
+				<value>
+					<label>make abyssal component</label>
+				</value>
+			</li>
+			<!-- Gen2 Component descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII"]/description</xpath>
+				<value>
+					<description>Make a generalist Generation 2 component from Abyssal Alloy and Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Component x5 crafting -->
+			<!-- Gen2 Component x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating abyssal component</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Component x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII_bulk"]/label</xpath>
+				<value>
+					<label>bulk make abyssal components (x5)</label>
+				</value>
+			</li>
+			<!-- Gen2 Component x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk make five generalist Generation 2 components from Abyssal Alloy and Abyssal Matter.\n\nCreating abyssal components in bulk is 15% faster than individually making five of them, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Component x1 crafting -->
+			<!-- Gen3 Component jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Creating enigmatic component</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Component label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII"]/label</xpath>
+				<value>
+					<label>make enigmatic component</label>
+				</value>
+			</li>
+			<!-- Gen3 Component descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII"]/description</xpath>
+				<value>
+					<description>Make a generalist Generation 3 component from Abyssal Alloy and Eternal Fabric.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Component x5 crafting -->
+			<!-- Gen3 Component x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating enigmatic component</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Component x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII_bulk"]/label</xpath>
+				<value>
+					<label>bulk make enigmatic components (x5)</label>
+				</value>
+			</li>
+			<!-- Gen3 Component x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk make five generalist Generation 3 components from Abyssal Alloy and Eternal Fabric.\n\nCreating enigmatic components in bulk is 15% faster than individually making five of them, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Monument to Greatness -->
+			<!-- Monument jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Hidden"]/jobString</xpath>
+				<value>
+					<jobString>Fabricating Enigmatic Blueprint</jobString>
+				</value>
+			</li>
+			<!-- Monument label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Hidden"]/description</xpath>
+				<value>
+					<description>There is a strange file loaded onto the Abyssal Manipulator, the file requiring an obscene amount of Abyssal-tier material to make. It appears to be a very intricuate and delicate device. Other than that, we're not sure what this is, but we've got a feeling that this is going to be really, really worth it in the end.</description>
+				</value>
+			</li>
+			<!-- Monument descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Hidden"]/label</xpath>
+				<value>
+					<label>make Enigmatic Blueprint</label>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

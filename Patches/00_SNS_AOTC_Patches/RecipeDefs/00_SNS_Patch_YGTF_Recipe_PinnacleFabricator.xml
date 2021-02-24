@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Pinnacle Fabricator jobstring. (Currently uneeded.) -->
+			<!-- li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Base"]/jobString</xpath>
+				<value>
+					<jobString>Atomically Fabricating</jobString>
+				</value>
+			</li -->
+			
+			<!-- Gen1 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_MealGenI"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Luxurious Meals from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gen1 Nutrient Bar -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenI"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Nutrient Bars from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gen2 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_MealGenII"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Decadent Meals from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gen2 Nutrient Bar -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenII"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Advanced Nutrient Bars from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gen3 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_MealGenIII"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Hedonistic Luxurious Meals from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gen3 Nutrient Bar -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenIII"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Luxurious Nutrient Bars from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gen4 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenIII"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Hedonist's Dream from nothingness.</description>
+				</value>
+			</li>
+			<!-- Kibble -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Kibble"]/description</xpath>
+				<value>
+					<description>Pattern a large pile of Kibble from nothingness.</description>
+				</value>
+			</li>
+			<!-- Herbal Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_HerbalMedicine"]/description</xpath>
+				<value>
+					<description>Pattern 25 packages of Herbal Medicine from nothingness.</description>
+				</value>
+			</li>
+			<!-- Industrial Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Medicine"]/description</xpath>
+				<value>
+					<description>Pattern 25 packages of Industrial-Grade Medicine from nothingness.</description>
+				</value>
+			</li>
+			<!-- Glitterworld Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_GlitterworldMedicine"]/description</xpath>
+				<value>
+					<description>Pattern 25 packages of Glitterworld Medicine from nothingness.</description>
+				</value>
+			</li>
+			<!-- Neutroamine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Neutroamine"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Neutroamine from nothingness.</description>
+				</value>
+			</li>
+			<!-- Penoxycyline -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Penoxycyline"]/description</xpath>
+				<value>
+					<description>Pattern a full, sizeable container of 400 Penoxycyline pills from nothingness.</description>
+				</value>
+			</li>
+			<!-- Ambrosia -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Ambrosia"]/description</xpath>
+				<value>
+					<description>Pattern a massive pile of 400 Ambrosia fruits from nothingness.</description>
+				</value>
+			</li>
+			<!-- Luciferium -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Luciferium"]/description</xpath>
+				<value>
+					<description>Pattern a full, sizeable container of 400 Luciferium pills from nothingness.</description>
+				</value>
+			</li>
+			<!-- Silver -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Silver"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 500 Silver pieces from nothingness.</description>
+				</value>
+			</li>
+			<!-- Gold -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Gold"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 500 Gold pieces from nothingness.</description>
+				</value>
+			</li>
+			<!-- Steel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Steel"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 75 Steel ingots from nothingness.</description>
+				</value>
+			</li>
+			<!-- Plasteel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Plasteel"]/description</xpath>
+				<value>
+					<description>Pattern 75 small sheets of Plasteel from nothingness.</description>
+				</value>
+			</li>
+			<!-- Uranium -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Uranium"]/description</xpath>
+				<value>
+					<description>Pattern 75 pieces of self-contained Uranium from nothingness.</description>
+				</value>
+			</li>
+			<!-- Granite Blocks -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_BlocksGranite"]/description</xpath>
+				<value>
+					<description>Pattern a neat stack of 75 Granite blocks from nothingness.</description>
+				</value>
+			</li>
+			<!-- Chemfuel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Chemfuel"]/description</xpath>
+				<value>
+					<description>Pattern a full, large container filled with 150 units of Chemfuel from nothingness.</description>
+				</value>
+			</li>
+			<!-- Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_ComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 25 generalist basic Components from nothingness.</description>
+				</value>
+			</li>
+			<!-- Advanced Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_AdvancedComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 25 generalist advanced Components from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Component_GenII"]/label</xpath>
+				<value>
+					<label>Pattern Abyssal Component</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Component_GenII"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 25 Abyssal Components from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Enigmatic Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Component_GenIII"]/label</xpath>
+				<value>
+					<label>Pattern Eternal Component</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Component_GenIII"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 25 Enigmatic Components from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Mech Heal Serum -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_MechSerumHealer"]/description</xpath>
+				<value>
+					<description>Pattern a single injector of Mech Heal Serum from nothingness.</description>
+				</value>
+			</li>
+			<!-- Mech Resurrector Serum -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_MechSerumResurrector"]/description</xpath>
+				<value>
+					<description>Pattern a single injector of Mech Resurrector Serum from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Voidsteel label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Unobtainium"]/label</xpath>
+				<value>
+					<label>Pattern Voidsteel</label>
+				</value>
+			</li>
+			<!-- Voidsteel descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Unobtainium"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Voidsteel from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Voidsteel Wool label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Unobtainium_Fiber"]/label</xpath>
+				<value>
+					<label>Pattern Voidsteel 'Wool'</label>
+				</value>
+			</li>
+			<!-- Voidsteel Wool descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Unobtainium_Fiber"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Voidsteel Wool from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Catalyst Fuel Cells -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_FuelCell"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Abyssal Fuel Catalyst Cells from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Alloy label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicAlloy"]/label</xpath>
+				<value>
+					<label>Pattern Abyssal Alloy</label>
+				</value>
+			</li>
+			<!-- Abyssal Alloy descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicAlloy"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Abyssal Alloy from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Weave label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicWeave"]/label</xpath>
+				<value>
+					<label>Pattern Abyssal Weave</label>
+				</value>
+			</li>
+			<!-- Abyssal Weave descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicWeave"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Abyssal Weave from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Matter -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicMatter"]/description</xpath>
+				<value>
+					<description>Draw Abyssal Matter directly from the very fabric of all reality.</description>
+				</value>
+			</li>
+			
+			<!-- Eternal Fabric -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Eternium"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of the very fabric of all creation itself.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

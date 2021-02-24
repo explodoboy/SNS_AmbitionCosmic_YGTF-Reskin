@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen4 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_Pinnacle"]/label</xpath>
+				<value>
+					<label>Curse of Eternity</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_Pinnacle"]/description</xpath>
+				<value>
+					<description>A kit full of nothing but Eternal Fabric and Eternal Fabric tools, able to quite literally change shape to one's own intentions and will. The Eternal Fabric within can do virtually any medical task, and without flaw. Even one who had never even thought about anything remotely medical in their life before can truly excel with the Gift of Eternity.\n\nIt is truly the ultimate medicine, the gift of a curse--a life longer than all others.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

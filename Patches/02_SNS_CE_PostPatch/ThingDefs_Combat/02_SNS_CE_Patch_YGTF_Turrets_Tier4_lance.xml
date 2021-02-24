@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Abyssal</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Lance"]/label</xpath>
+						<value>
+							<label>abyssal lance projectile</label>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Lance"]/label</xpath>
+						<value>
+							<label>Automated Lance gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Lance"]/description</xpath>
+						<value>
+							<description>The gun of an automated lance.</description>
+						</value>
+					</li>
+			
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_HighStorageLance"]/label</xpath>
+						<value>
+							<label>Automated Lance gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_HighStorageLance"]/description</xpath>
+						<value>
+							<description>The gun of an automated lance.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionHighStorageLance"]/label</xpath>
+						<value>
+							<label>Automated Lance gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionHighStorageLance"]/description</xpath>
+						<value>
+					<description>The gun of an automated lance.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_Lance"]/label</xpath>
+						<value>
+							<label>Automated Lance</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_Lance"]/description</xpath>
+						<value>
+							<description>A highly advanced automatic turret that uses a Abyssal Lance as its weapon of choice. Fires very slowly. Must be reloaded occasionally, one charge cell at a time\n\nJust like the Abyssal Lance, the turret excels at extremely close and long range, but is highly inconsistent at further ranges.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_HighStorageLance"]/label</xpath>
+						<value>
+							<label>Deep Storage Automated Lance</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_HighStorageLance"]/description</xpath>
+						<value>
+							<description>A highly advanced automatic turret that uses a Abyssal Lance as its weapon of choice. Fires very slowly. Must be reloaded occasionally, one charge cell at a time\n\nJust like the Abyssal Lance, the turret excels at extremely close and long range, but is highly inconsistent at further ranges.\n\nThis specific varient has five times the fuel capacity as the standard variant and isn't as well armored.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionLance"]/label</xpath>
+						<value>
+							<label>Automated Lance gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionLance"]/description</xpath>
+						<value>
+							<description>The gun of an automated lance.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionLance"]/label</xpath>
+						<value>
+							<label>Overdrive Automated Lance</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionLance"]/description</xpath>
+						<value>
+							<description>A highly advanced automatic turret that uses a Abyssal Lance as its weapon of choice. Fires somewhat slowly. Must be reloaded occasionally, one charge cell at a time\n\nJust like the Abyssal Lance, the turret excels at extremely close and long range, but is highly inconsistent at further ranges.\n\nThis specific varient has five times the fuel capacity as the standard variant and isn't as well armored.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionHighStorageLance"]/label</xpath>
+						<value>
+							<label>Deep Storage Overdrive Automated Lance</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionHighStorageLance"]/description</xpath>
+						<value>
+							<description>A highly advanced automatic turret that uses an Abyssal Lance as its weapon of choice. Fires somewhat slowly. Must be reloaded occasionally, one charge cell at a time\n\nJust like the Abyssal Lance, the turret excels at extremely close and long range, but is highly inconsistent at further ranges.\n\nThis specific varient has five times the fuel capacity as the standard variant and isn't as well armored.\n\nThis specific varient has five times the fuel capacity as the standard variant and isn't as well armored.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalLance"]/label</xpath>
+						<value>
+							<label>Advanced Automated Lance gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalLance"]/description</xpath>
+						<value>
+							<description>The gun of an eternal automated lance.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalLance"]/label</xpath>
+						<value>
+							<label>Advanced Automated Lance</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalLance"]/description</xpath>
+						<value>
+							<description>A highly advanced automatic turret that uses n Abyssal Lance as its weapon of choice. Fires at a decent rate (blazing for the likes of Abyssal Lances). Must be reloaded occasionally, one charge cell at a time. It unleashes a burst of two projectiles each time it fires.\n\nJust like the Abyssal Lance, the turret excels at extremely close and long range, but is highly inconsistent at further ranges.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_EnigmaticLance"]/label</xpath>
+						<value>
+							<label>enigmatic lance projectile</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EnigmaticLance"]/label</xpath>
+						<value>
+							<label>Enigmatic Lance gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EnigmaticLance"]/description</xpath>
+						<value>
+							<description>The gun of an enigmatic lance.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EnigmaticLance"]/label</xpath>
+						<value>
+							<label>Enigmatic Lance</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EnigmaticLance"]/description</xpath>
+						<value>
+							<description>A highly volatile turret that uses a Abyssal Lance supercharged with enigmatic energy as its weapon of choice. While it takes a while to charge, it makes up for the wait by unleashing a violent volley of low-energy Eternal Fabric projectiles that are on-par with the Abyssal Lance.\n\nWhile the turret won't explode, the danger of the turret still lies in its ability to lay waste to whatever lies in its path. It has to be loaded one cell at a time.\n\nJust like the Abyssal Lance, the turret excels at extremely close and long range, but is highly inconsistent at medium ranges.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

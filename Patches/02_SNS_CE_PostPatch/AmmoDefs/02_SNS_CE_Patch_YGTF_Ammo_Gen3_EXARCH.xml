@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenIII_EXARCH"]/label</xpath>
+						<value>
+							<label>EXARCH charge</label>
+						</value>
+					</li>
+
+					<!-- ammo item -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenIII_EXARCH"]/label</xpath>
+						<value>
+							<label>EXARCH charge cell</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenIII_EXARCH"]/description</xpath>
+						<value>
+							<description>A container cell filled with pure, well-ordered Eternal Fabric. The Eternal Fabric contained within is far too ordered and stable to be used with standard Generation Omega weaponry, but is just perfect for use with the EXARCH.\n\nStack limit: 50</description>
+						</value>
+					</li>
+
+					<!-- recipe -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenIII_EXARCH"]/label</xpath>
+						<value>
+							<label>make EXARCH charge cell x50</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenIII_EXARCH"]/description</xpath>
+						<value>
+							<description>Craft a large capacitor filled with pure Eternal Fabric for use with the EXARCH.</description>
+						</value>
+					</li>
+
+					<!-- EXARCH projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Bullet_EXARCH"]/label</xpath>
+						<value>
+							<label>EXARCH projectile</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

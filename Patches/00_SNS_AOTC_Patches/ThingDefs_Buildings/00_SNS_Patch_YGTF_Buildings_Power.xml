@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Generation 1 -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I"]/label</xpath>
+				<value>
+					<label>Abyssal Reactor Generation 1</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I"]/description</xpath>
+				<value>
+					<description>The Abyssal Reactor Generation 1 is a powerful power-generation device that utilizes Uranium's radioactivity to extract energy from the Abyssal Matter trapped inside Voidsteel. The reaction is generally safe, until its fuel is damaged. If the reactor is destroyed unsafely, it may violently finish the entire reaction of its Catalyst Cells, causing a massive explosion.\n\nIf this reactor is fueled, and its fuel is destroyed by whatever destroys the reactor, it will violently explode. Its explosion radius is very big.\n\nStats: Generates 100K Watts for 1.1 years when fully fueled with 100 Abyssal Catalyst Fuel Cells.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I_Portable"]/label</xpath>
+				<value>
+					<label>Portable Abyssal Reactor Generation 1</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I_Portable"]/description</xpath>
+				<value>
+					<description>The Portable Abyssal Reactor Generation 1 is a powerful power-generation device that utilizes Uranium's radioactivity to extract energy from the Abyssal Matter trapped inside Voidsteel. The reaction is generally safe, until its fuel is damaged. If the reactor is destroyed unsafely, it may violently finish the entire reaction of its Catalyst Cells, causing a massive explosion.\n\nIf this reactor is fueled, and its fuel is destroyed by whatever destroys the reactor, it will violently explode. Its explosion radius is very big.\n\nThis Abyssal Reactor uses a streamlined design without any unnecessary parts to make the most out of the materials put into it. It is also surprisingly light and portable, making a great (yet dangerous around explosives) reactor for all operations across the universe.\n\nStats: Generates 100K Watts for 1.1 years when fully fueled with 100 Abyssal Catalyst Fuel Cells.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I_Portable"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_I"]/label</xpath>
+				<value>
+					<label>Abyssal Battery Generation 1</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_I"]/description</xpath>
+				<value>
+					<description>The Abyssal Battery Gen 1 is capable of storing incredible amounts of energy at the absolute highest possible efficiency. Incredibly safe, the Abyssal Battery will never combust or explode even when damaged. It is NOT immune to power surges, however.\n\nStats: Stores 10000 Watts at 100% efficiency</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_I"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Generation 2 -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II"]/label</xpath>
+				<value>
+					<label>Abyssal Reactor Generation 2</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II"]/description</xpath>
+				<value>
+					<description>The Abyssal Matter Reactor converts pure, raw Able Matter into an obscene amount of electrical energy. Able to burn for thrice times as long and output 50% more energy than its predecessor when fully fueled, the Abyssal Matter Reactor is truly superior in every way to its Generation 1 counterpart.\n\nThe Reactor is built into the floor, so colonists and other beings may freely walk over it. (But you can't build anything on top of it.)\n\nStats: Generates 150K Watts for 3.3 years when fully fueled with 1000 Abyssal Matter.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II_Portable"]/label</xpath>
+				<value>
+					<label>Portable Abyssal Reactor Generation 2</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II_Portable"]/description</xpath>
+				<value>
+					<description>The Portable Abyssal Matter Reactor converts pure, raw Abyssal Matter into an obscene amount of electrical energy. Able to burn for thrice times as long and output 50% more energy than its predecessor when fully fueled, the Abyssal Matter Reactor is truly superior in every way to its Generation 1 counterpart.\n\nThis Abyssal Reactor uses a streamlined design without any unnecessary parts to make the most out of the materials put into it. It is also surprisingly light and portable, making the perfect mobile reactor for all operations across the universe.\n\nStats: Generates 150K Watts for 3.3 years when fully fueled with 1000 Abyssal Matter.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II_Portable"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_II"]/label</xpath>
+				<value>
+					<label>Abyssal Battery Generation 2</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_II"]/description</xpath>
+				<value>
+					<description>The Abyssal Battery Gen 2 is the perfect battery, able to store seemingly endless amounts of energy at the highest possible efficiency. The Generation II Abyssal Battery will never combust or explode regardless of damage or condition, but is NOT immune to power surges.\n\nStats: Stores 100K Watts at 100% efficiency.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_II"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Generation 3 -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_III"]/label</xpath>
+				<value>
+					<label>Abyssal Reactor Generation Omega</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_III"]/description</xpath>
+				<value>
+					<description>The Abyssal Reactor Generation Omega draws pure Abyssal Matter straight from the Eternal Voids, fueling itself, and thus not requiring any energy input. The amount of energy the Generation Omega reactor can generate is... Truly wonderful.\n\nStats: Generates 1.5M Watts.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_III"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_III"]/label</xpath>
+				<value>
+					<label>Abyssal Battery Generation Omega</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_III"]/description</xpath>
+				<value>
+					<description>The Abyssal Battery Generation Omega is the ultimate battery, storing vastly more energy than its precessor at the highest possible efficiency.\n\nThe Generation Omega Abyssal Battery will never combust or explode no matter what, but is NOT immune to power surges.\n\nStats: Stores 1M Watts.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_III"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

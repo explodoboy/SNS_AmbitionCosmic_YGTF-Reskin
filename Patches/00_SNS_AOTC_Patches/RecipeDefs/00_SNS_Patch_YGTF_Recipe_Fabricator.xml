@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Abyssal</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Atomic Fabricator jobstring. (Currently uneeded.) -->
+			<!-- li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Constructor_Base"]/jobString</xpath>
+				<value>
+					<jobString>Atomically Fabricating</jobString>
+				</value>
+			</li -->
+			
+			<!-- Simple Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_MealSimple"]/description</xpath>
+				<value>
+					<description>Pattern Simple Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Fine Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_MealFine"]/description</xpath>
+				<value>
+					<description>Pattern Fine Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Lavish Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_MealLavish"]/description</xpath>
+				<value>
+					<description>Pattern Lavish Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gen1 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_MealGenI"]/description</xpath>
+				<value>
+					<description>Pattern Luxurious Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gen1 Nutrient Bar -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_NutrientBarGenI"]/description</xpath>
+				<value>
+					<description>Pattern Nutrient Bars from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Kibble -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Kibble"]/description</xpath>
+				<value>
+					<description>Pattern Kibble from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Herbal Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_HerbalMedicine"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Herbal Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Industrial Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Medicine"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Industrial-Grade Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Glitterworld Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_GlitterworldMedicine"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Glitterworld Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Neutroamine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Neutroamine"]/description</xpath>
+				<value>
+					<description>Pattern five units of Neutroamine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Penoxycyline -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Penoxycyline"]/description</xpath>
+				<value>
+					<description>Pattern 25 pills of Penoxycyline from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Ambrosia -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Ambrosia"]/description</xpath>
+				<value>
+					<description>Pattern ten Ambrosia fruits from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Luciferium -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Luciferium"]/description</xpath>
+				<value>
+					<description>Pattern five pills of Luciferium from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Silver -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Silver"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 100 Silver pieces from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gold -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Gold"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 100 Gold pieces from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Steel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Steel"]/description</xpath>
+				<value>
+					<description>Pattern a collection of 25 Steel ingots from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Plasteel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Plasteel"]/description</xpath>
+				<value>
+					<description>Pattern 25 small sheets of Plasteel from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Uranium -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Uranium"]/description</xpath>
+				<value>
+					<description>Pattern 25 pieces of self-contained Uranium from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Granite Blocks -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_BlocksGranite"]/description</xpath>
+				<value>
+					<description>Pattern 25 perfectly cut blocks of Granite from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Chemfuel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Chemfuel"]/description</xpath>
+				<value>
+					<description>Pattern a medium container filled with 75 units of Chemfuel from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_ComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Pattern a pile of five generalist basic Components from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Advanced Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_AdvancedComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Pattern a pile of five generalist advanced Components from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Mech Heal Serum -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_MechSerumHealer"]/description</xpath>
+				<value>
+					<description>Pattern a single injector of Mech Heal Serum from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Mech Resurrector Serum -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_MechSerumResurrector"]/description</xpath>
+				<value>
+					<description>Pattern a single injector of Mech Resurrector Serum from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Voidsteel label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Unobtainium"]/label</xpath>
+				<value>
+					<label>Pattern Voidsteel</label>
+				</value>
+			</li>
+			<!-- Voidsteel descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Unobtainium"]/description</xpath>
+				<value>
+					<description>Pattern ten units of Voidsteel from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Voidsteel Wool label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Unobtainium_Fiber"]/label</xpath>
+				<value>
+					<label>Pattern Voidsteel 'Wool'</label>
+				</value>
+			</li>
+			<!-- Voidsteel Wool descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_Unobtainium_Fiber"]/description</xpath>
+				<value>
+					<description>Pattern twenty units of Voidsteel Wool from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Catalyst Fuel Cells -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fabricator_FuelCell"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Abyssal Fuel Catalyst Cells from pure Abyssal Matter.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

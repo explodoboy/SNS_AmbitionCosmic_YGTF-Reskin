@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenIII_Pistol"]/label</xpath>
+						<value>
+							<label>eternal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenIII_Rifle"]/label</xpath>
+						<value>
+							<label>eternal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenIII_Shotgun"]/label</xpath>
+						<value>
+							<label>eternal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenIII_Sniper"]/label</xpath>
+						<value>
+							<label>eternal weapon charge</label>
+						</value>
+					</li>
+
+					<!-- ammo item -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenIII"]/label</xpath>
+						<value>
+							<label>generation omega eternal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenIII"]/description</xpath>
+						<value>
+							<description>A capacitor cell filled with unordered Eternal Fabric, designed for Generation-3 Eternal weaponry. While it is cheap and fast to make, the Eternal Fabric within is highly unstable and will cease to exist entirely of containment is broken; nothing can be extracted from it.\n\nStack limit: 5,000</description>
+						</value>
+					</li>
+
+					<!-- recipe -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenIII"]/label</xpath>
+						<value>
+							<label>make generation omega eternal weapon charge x50</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenIII"]/description</xpath>
+						<value>
+							<description>Create 50 shots worth of omega-generation eternal weapon charge in a convenient capacitor.</description>
+						</value>
+					</li>
+
+					<!-- pistol projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenIII_Pistol"]/label</xpath>
+						<value>
+							<label>eternal pistol projectile</label>
+						</value>
+					</li>
+
+					<!-- rifle projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenIII_Rifle"]/label</xpath>
+						<value>
+							<label>eternal rifle projectile</label>
+						</value>
+					</li>
+
+					<!-- shotgun projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenIII_Shotgun"]/label</xpath>
+						<value>
+							<label>eternal shotgun projectile</label>
+						</value>
+					</li>
+
+					<!-- sniper projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenIII_Sniper"]/label</xpath>
+						<value>
+							<label>eternal sniper projectile</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

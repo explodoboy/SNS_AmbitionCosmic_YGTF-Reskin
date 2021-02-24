@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmorHelmet"]/label</xpath>
+				<value>
+					<label>CHARON Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmorHelmet"]/description</xpath>
+				<value>
+					<description>A pressure-sealed Abyssal Power Armor Helmet fueled by Eternal Fabric. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nThis helmet is truly arcane, and is beyond that of anything else. There are only a few dozen of these suits known of in the galaxy, most of them broken beyond repair.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmor"]/label</xpath>
+				<value>
+					<label>CHARON Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmor"]/description</xpath>
+				<value>
+					<description>A suit of Abyssal Power Armor fueled by Eternal Fabric. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable. Its protective barrier is nigh-indestructible, and one would have to be trying to get in harm's way.\n\nThis armor is truly arcane, and is beyond that of anything else. There are only a few dozen of these suits known of in the galaxy, most of them broken beyond repair.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

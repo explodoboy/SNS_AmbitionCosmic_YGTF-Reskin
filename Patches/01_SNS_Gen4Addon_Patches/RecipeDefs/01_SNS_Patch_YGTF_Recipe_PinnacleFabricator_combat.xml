@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Pinnacle Fabricator jobstring. (Currently uneeded.) -->
+			<!-- li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Base"]/jobString</xpath>
+				<value>
+					<jobString>Atomically Fabricating</jobString>
+				</value>
+			</li -->
+			
+			<!-- B.E.H.O.L.D.E.R. gun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_BeholderGun"]/description</xpath>
+				<value>
+					<description>Pattern The B.E.H.O.L.D.E.R. from nothingness.</description>
+				</value>
+			</li>
+			<!-- T.E.R.M.I.N.U.S. gun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_TerminusGun"]/description</xpath>
+				<value>
+					<description>Pattern The T.E.R.M.I.N.U.S. from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Gen4 Helmet -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_FirstCycleHelmet"]/label</xpath>
+				<value>
+					<label>Pattern Cycle Omega Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_FirstCycleHelmet"]/description</xpath>
+				<value>
+					<description>Pattern a Cycle Omega Helmet from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Gen4 Armor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_FirstCycleArmor"]/label</xpath>
+				<value>
+					<label>Pattern Cycle Omega Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_FirstCycleArmor"]/description</xpath>
+				<value>
+					<description>Pattern a set of Cycle Omega Armor from nothingness.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

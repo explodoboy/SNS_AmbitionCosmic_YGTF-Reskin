@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- projectile -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Proj_EMPGrenade"]/label</xpath>
+				<value>
+					<label>Abyssal EMP Grenade</label>
+				</value>
+			</li>
+			<!-- item -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_EMPGrenade"]/label</xpath>
+				<value>
+					<label>Abyssal EMP Grenade</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_EMPGrenade"]/description</xpath>
+				<value>
+					<description>This grenade is a terrifying weapon, boasting a much, MUCH larger blast radius than the size of the object could ever suggest. It not only is highly powerful but will hit things seemingly miles away from its ground zero.\n\nHint: The blast radius is larger than you can throw it. Good luck.</description>
+				</value>
+			</li>
+			
+			<!-- projectile -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Proj_FragGrenade"]/label</xpath>
+				<value>
+					<label>Abyssal Frag Grenade</label>
+				</value>
+			</li>
+			<!-- item -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_FragGrenade"]/label</xpath>
+				<value>
+					<label>Abyssal Frag Grenade</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_FragGrenade"]/description</xpath>
+				<value>
+					<description>This grenade is a terrifying weapon, boasting both a large explosion (one far too large for an object of its size) and with said explosion being incredibly damaging. You should throw this at the maximum possible range, or else you might get your entire body reduced to a fine pulp.\n\nIt's safe to say that you should hold your fire and use this monster manually.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

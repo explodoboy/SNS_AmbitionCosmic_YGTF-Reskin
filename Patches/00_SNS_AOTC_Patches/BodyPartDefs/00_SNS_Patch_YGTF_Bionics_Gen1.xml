@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- <Operation Class="PatchOperationFindMod"> -->
+    <!-- <mods> -->
+        <!-- <li>Science Never Stops: Ambition of the Cosmic</li> -->
+    <!-- </mods> -->
+	<Operation Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Base_BionicBodyPart_GenI"]/graphicData/color</xpath>
+				<value>
+					<color>(70,70,70)</color>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediff_GenI"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(0,0,180)</defaultLabelColor>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediffImplant_GenI"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(0,0,180)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenI"]/label</xpath>
+				<value>
+					<label>entropic eye</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic eye</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic eye.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenI"]/label</xpath>
+				<value>
+					<label>entropic eye</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical eye made of high-strength Voidsteel based off of the Archotech eye. It is incredibly tough, able to withstand high-force impacts without breaking beyond repair. Just like the Archotech eye, it is able to percieve every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal near-subpersona-level AI which helps highlight commonly useful visual information.\n\nIts only downfall is that it does not look anything like a human eye on closer inspection, having an extremely obvious border between pupil, iris, and the remainder of the eye, not even considering the possibility a user can cause their irises to glow at will.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenI"]/label</xpath>
+				<value>
+					<label>install entropic eye</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic eye.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic eye.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenI"]/label</xpath>
+				<value>
+					<label>entropic ear</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic ear</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic ear.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenI"]/label</xpath>
+				<value>
+					<label>entropic ear</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical ear made of high-strength Voidsteel. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. Able to hear and detect sound from kilometers away, regardless of how low or high the frequency of said sound is, and also has an internal near-subpersona-level AI that equalises sounds, filters out all unecessary details, and attempts to increase the clarity of speech.\n\nIts only downfall is that it looks nothing like a human ear. Even if one can replicate the shape, the metalic shine and general color makes it obvious that it is not natural, though most don't mind it considering the generally beautiful nature of the metal.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenI"]/label</xpath>
+				<value>
+					<label>install entropic ear</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic ear.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic ear.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenI"]/label</xpath>
+				<value>
+					<label>entropic nose</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic nose</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic nose.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenI"]/label</xpath>
+				<value>
+					<label>entropic nose</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenI"]/description</xpath>
+				<value>
+					<description>A nose made of Voidsteel, able to breathe in very high amounts of air in short periods of time. Extremely tough and reliable, its only downfall is that it does not look natural at all.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenI"]/label</xpath>
+				<value>
+					<label>install entropic nose</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic nose.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic nose.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenI"]/label</xpath>
+				<value>
+					<label>entropic jaw</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic jaw</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic jaw.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenI"]/label</xpath>
+				<value>
+					<label>entropic jaw</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical jaw made of high-strength Voidsteel. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. Able to literally chew through Plasteel and amplify the volume of one's own vocalisations alongside increase the clarity of speech, it is an exceptional eating and negotiation tool.\n\nIts only downfall is that it is obviously artifical, the metalic shine and general color does not help either, though most don't mind it considering the generally beautiful nature of the metal.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenI"]/label</xpath>
+				<value>
+					<label>install entropic jaw</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic jaw.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic jaw.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenI"]/label</xpath>
+				<value>
+					<label>entropic head shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic head shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic head shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenI"]/label</xpath>
+				<value>
+					<label>entropic head shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenI"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Voidsteel armor for the head. While it doesn't provide any benefit over the natural body, it does make the head much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenI"]/label</xpath>
+				<value>
+					<label>install entropic head shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic head shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic head shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenI"]/label</xpath>
+				<value>
+					<label>entropic neck shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic neck shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic neck shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenI"]/label</xpath>
+				<value>
+					<label>entropic neck shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenI"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Voidsteel armor for the neck. While it doesn't provide any benefit over the natural body, it does make the neck much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenI"]/label</xpath>
+				<value>
+					<label>install entropic neck shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic neck shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic neck shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenI"]/label</xpath>
+				<value>
+					<label>entropic torso shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic torso shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenI"]/label</xpath>
+				<value>
+					<label>entropic torso shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenI"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Voidsteel armor for the torso. While it doesn't provide any benefit over the natural body, it does make the torso much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenI"]/label</xpath>
+				<value>
+					<label>install entropic torso shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic torso shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic torso shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenI"]/label</xpath>
+				<value>
+					<label>entropic arm</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic arm</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic arm.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenI"]/label</xpath>
+				<value>
+					<label>entropic arm</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical arm made of high-strength Voidsteel. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. It is able to bend some softer metals all on its own with the precision of performing surgery on a grain of rice.\n\nIts only downfall is that it is obviously artificial, and in fact looks very robotic in nature, though few actually mind the apperance due to the generally beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenI"]/label</xpath>
+				<value>
+					<label>nstall entropic arm</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic arm.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic arm.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenI"]/label</xpath>
+				<value>
+					<label>entropic leg</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic leg</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic leg.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenI"]/label</xpath>
+				<value>
+					<label>entropic leg</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical leg made of high-strength Voidsteel. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. It is able to allow its user to move as fast as a decent car.\n\nIts only downfall is that it is obviously artifical, and in fact looks very robotic in nature, though few actually mind the apperance due to the generally beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenI"]/label</xpath>
+				<value>
+					<label>install entropic leg</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic leg.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic leg.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenI"]/label</xpath>
+				<value>
+					<label>entropic spine</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic spine</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic spine.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenI"]/label</xpath>
+				<value>
+					<label>entropic spine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical spine made of high-strength Voidsteel. It's extremely sturdy, able to handle very high amounts of weight and general strain from various sources all at once.\n\nIts only downfall is that it is obviously artificial, and can't entirely be hidden beneath the skin, though few actually mind the apperance due to the generally beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenI"]/label</xpath>
+				<value>
+					<label>install entropic spine</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic spine.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic spine.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenI"]/label</xpath>
+				<value>
+					<label>entropic neural enchanter</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic neural enchanter</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenI"]/label</xpath>
+				<value>
+					<label>entropic neural enchanter</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced brain 'implant' that covers the entirety of the brain and replaces some parts not related to personality and emotion, but this means that it cannot be removed without destruction of the brain or replacement devices. It is possible, however, to replace it with other neural enchanters.\n\nBeing made of Voidsteel, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenI"]/label</xpath>
+				<value>
+					<label>install entropic neural enchanter</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic neural enchanter.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenI"]/label</xpath>
+				<value>
+					<label>entropic heart</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic heart</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic heart.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenI"]/label</xpath>
+				<value>
+					<label>entropic heart</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced blood pump that replaces the heart. While it looks nothing like a natural heart, it's far better and more efficient. It can pump blood at the highest safe levels, and adjust bloodflow dynamically to noticably reduce the rate of bleeding.\n\nBeing made of Voidsteel, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenI"]/label</xpath>
+				<value>
+					<label>install entropic heart</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic heart.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic heart.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenI"]/label</xpath>
+				<value>
+					<label>entropic lung</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic lung</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic lung.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenI"]/label</xpath>
+				<value>
+					<label>entropic lung</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced lung-like device that collects pure oxygen through normal breathing. It draws oxygen far faster and more efficiently than natural lungs, alongside being able to store oxygen for extended periods of time. Equipped with advanced filtration devices, it can draw oxygen from the most thin atmospheres and keep the body alive and, of course, filter out any atmospheric toxins completely.\n\nBeing made of Starsteel, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenI"]/label</xpath>
+				<value>
+					<label>install entropic lung</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenI"]/description</xpath>
+				<value>
+					<description>Install a entropic lung.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic lung.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenI"]/label</xpath>
+				<value>
+					<label>entropic kidney</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic kidney</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic kidney.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenI"]/label</xpath>
+				<value>
+					<label>entropic kidney</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced blood filtration device that filters faster and better than any natural kidney ever could. It is not only able to handle an extremely high bloodflow, but also not lose any efficiency in extreme situations.\n\nBeing made of Voidsteel, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenI"]/label</xpath>
+				<value>
+					<label>install stellar kidney</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic kidney.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic kidney.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenI"]/label</xpath>
+				<value>
+					<label>entropic liver</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic liver</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic liver.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenI"]/label</xpath>
+				<value>
+					<label>entropic liver</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced liver-like device that does all the tasks natural livers can do at a much higher speed and efficiency. It is made to deal with anything that can be thrown at it, and more.\n\nBeing made of Voidsteel, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenI"]/label</xpath>
+				<value>
+					<label>install entropic liver</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic liver.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic liver.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenI"]/label</xpath>
+				<value>
+					<label>entropic digestive system</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an entropic digestive system</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenI"]/description</xpath>
+				<value>
+					<description>An installed entropic digestive system.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenI"]/label</xpath>
+				<value>
+					<label>entropic digestive system</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenI"]/description</xpath>
+				<value>
+					<description>A complete digestive system in a singular organ-shaped device that converts consumed food efficiency into pure nutrtients, also destroying any illness-causing elements in the process of nutrient conversion, effectively removing risk of food poisoning.\n\nBeing made of Voidsteel, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenI"]/label</xpath>
+				<value>
+					<label>install entropic digestive system</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenI"]/description</xpath>
+				<value>
+					<description>Install an entropic digestive system.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing entropic digestive system.</jobString>
+				</value>
+			</li>
+			
+		</operations>
+	<!-- </match> -->
+</Operation>
+
+</Patch>

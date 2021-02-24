@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- <Operation Class="PatchOperationFindMod"> -->
+    <!-- <mods> -->
+        <!-- <li>Science Never Stops: Ambition of the Cosmic</li> -->
+    <!-- </mods> -->
+	<Operation Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Base_BionicBodyPart_GenII"]/graphicData/color</xpath>
+				<value>
+					<color>(30,30,30)</color>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediff_GenII"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(0,0,255)</defaultLabelColor>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediffImplant_GenII"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(0,0,255)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenII"]/label</xpath>
+				<value>
+					<label>abyssal eye</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal eye</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal eye.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenII"]/label</xpath>
+				<value>
+					<label>abyssal eye</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenII"]/description</xpath>
+				<value>
+					<description>An extremely advanced artifical eye made of Abyssal Alloy and Abyssal Matter. It is obscenely tough, able to withstand high-force impacts without even being dented, much less being damaged. Just like the Archotech eye, it is able to percieve every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays, though this is where the similarities end. The eye is able to see with great precision more than twice as far as its Generation 1 predecessor.\n\nIts only downfall is that it does not look anything like a human eye on closer inspection, having an extremely obvious border between pupil, iris, and the remainder of the eye, not even considering the possibility a user can cause their irises to glow at will--and brightly at that.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal eye</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal eye.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal eye.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenII"]/label</xpath>
+				<value>
+					<label>abyssal ear</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal ear</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal ear.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenII"]/label</xpath>
+				<value>
+					<label>abyssal ear</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical ear made of high-strength Abyssal Alloy. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. Able to hear and detect even quiet sounds from kilometers away, regardless of how low or high the frequency of said sound is, and also has an internal subpersona-level AI that equalises sounds, filters out all unecessary details without error, and is also capable of increasing the clarity of speech to inhuman levels.\n\nIts only downfall is that it looks nothing like a human ear, even if one can replicate the shape, the metalic shine and cosmic glow makes it obvious that it is not natural, though most don't mind it considering the generally beautiful nature of the metal.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal ear</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal ear.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal ear.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenII"]/label</xpath>
+				<value>
+					<label>abyssal nose</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal nose</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal nose.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenII"]/label</xpath>
+				<value>
+					<label>abyssal nose</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenII"]/description</xpath>
+				<value>
+					<description>A nose made of Abyssal Alloy, able to breathe in very, very high amounts of air in short periods of time. Extremely tough and reliable, its only downfall is that it does not look natural at all.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal nose</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal nose.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal nose.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenII"]/label</xpath>
+				<value>
+					<label>abyssal jaw</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal jaw</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal jaw.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenII"]/label</xpath>
+				<value>
+					<label>abyssal jaw</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenII"]/description</xpath>
+				<value>
+				<description>A highly advanced artifical jaw made of high-strength Abyssal Alloy. It is incredibly tough, able to withstand high-force impact even being dented, much less broken. Able to literally chew through Voidsteel, break through thinner sheets of Abyssal Alloy, and amplify the volume of one's own vocalisations alongside increase the clarity of speech, it is an exceptional eating and negotiation tool.\n\nIts only downfall is that it is obviously artifical, the metalic shine and abyssal glow does not help either, though most don't mind it considering the generally beautiful nature of the metal.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal jaw</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal jaw.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal jaw.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenII"]/label</xpath>
+				<value>
+					<label>abyssal head shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal head shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal head shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenII"]/label</xpath>
+				<value>
+					<label>abyssal head shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenII"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Abyssal Alloy armor for the head. While it doesn't provide any benefit over the natural body, it does make the head much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal head shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal head shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal head shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenII"]/label</xpath>
+				<value>
+					<label>abyssal neck shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal neck shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal neck shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenII"]/label</xpath>
+				<value>
+					<label>abyssal neck shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenII"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Abyssal Alloy armor for the neck. While it doesn't provide any benefit over the natural body, it does make the neck much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal neck shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal neck shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal neck shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenII"]/label</xpath>
+				<value>
+					<label>abyssal torso shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal torso shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal torso shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenII"]/label</xpath>
+				<value>
+					<label>abyssal torso shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenII"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Abyssal Alloy armor for the torso. While it doesn't provide any benefit over the natural body, it does make the torso much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal torso shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal torso shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal torso shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenII"]/label</xpath>
+				<value>
+					<label>abyssal arm</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal arm</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal arm.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenII"]/label</xpath>
+				<value>
+					<label>abyssal arm</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical arm made of high-strength Abyssal Alloy. It is incredibly tough, able to withstand high-force impact without bending, much less breaking. It is able to bend Starsteel all on its own with the precision the likes of simply cannot be described.\n\nIts only downfall is that it is obviously artificial, and in fact looks very robotic in nature, though few actually mind the apperance due to the beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenII"]/label</xpath>
+				<value>
+					<label>nstall abyssal arm</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal arm.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal arm.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenII"]/label</xpath>
+				<value>
+					<label>abyssal leg</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal leg</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal leg.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenII"]/label</xpath>
+				<value>
+					<label>abyssal leg</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical leg made of high-strength Abyssal Alloy. It is incredibly tough, able to withstand high-force impact without bending, much less breaking. It is able to allow its user to move as fast as a good car.\n\nIts only downfall is that it is obviously artificial, and in fact looks very robotic in nature, though few actually mind the apperance due to the generally beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal leg</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal leg.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal leg.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenII"]/label</xpath>
+				<value>
+					<label>abyssal spine</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal spine</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal spine.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenII"]/label</xpath>
+				<value>
+					<label>abyssal spine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical spine made of high-strength Abyssal Alloy. It's extremely sturdy, able to handle very high amounts of weight and general strain from various sources all at once.\n\nIts only downfall is that it is obviously artificial, and can't entirely be hidden beneath the skin, though few actually mind the apperance due to the generally beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal spine</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal spine.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal spine.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenII"]/label</xpath>
+				<value>
+					<label>abyssal neural enchanter</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal neural enchanter</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenII"]/label</xpath>
+				<value>
+					<label>abyssal neural enchanter</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced brain 'implant' that covers the entirety of the brain and replaces some parts not related to personality and emotion, but this means that it cannot be removed without destruction of the brain or replacement devices. It is possible, however, to replace it with other neural enchanters.\n\nBeing made of Abyssal Alloy, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal neural enchanter</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal neural enchanter.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenII"]/label</xpath>
+				<value>
+					<label>abyssal heart</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal heart</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal heart.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenII"]/label</xpath>
+				<value>
+					<label>abyssal heart</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced blood pump that replaces the heart. While it looks nothing like a natural heart, it's far better and more efficient. It can pump blood beyond the highest natural safe levels thanks to the enigmatic nature of Abyssal Matter, and also slow the flow of blood significantly to significantly reduce bleeding rate.\n\nBeing made of Abyssal Alloy, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal heart</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal heart.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal heart.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenII"]/label</xpath>
+				<value>
+					<label>abyssal lung</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal lung</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal lung.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenII"]/label</xpath>
+				<value>
+					<label>abyssal lung</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced lung-like device that collects pure oxygen through normal breathing. It draws oxygen far faster and more efficiently than natural lungs, alongside being able to store oxygen for extended periods of time. Equipped with advanced filtration devices, it can draw oxygen from the most thin atmospheres and keep the body alive and, of course, filter out any atmospheric toxins completely.\n\nBeing made of Abyssal Alloy, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal lung</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenII"]/description</xpath>
+				<value>
+					<description>Install a abyssal lung.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal lung.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenII"]/label</xpath>
+				<value>
+					<label>abyssal kidney</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal kidney</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal kidney.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenII"]/label</xpath>
+				<value>
+					<label>abyssal kidney</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced blood filtration device that filters faster and better than any natural kidney ever could. It is not only able to handle an extremely high bloodflow, but also not lose any efficiency in extreme situations.\n\nBeing made of Abyssal Alloy, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenII"]/label</xpath>
+				<value>
+					<label>install stellar kidney</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal kidney.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal kidney.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenII"]/label</xpath>
+				<value>
+					<label>abyssal liver</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal liver</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal liver.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenII"]/label</xpath>
+				<value>
+					<label>abyssal liver</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced liver-like device that does all the tasks natural livers can do at a much higher speed and efficiency. It is made to deal with anything that can be thrown at it, and more.\n\nBeing made of Abyssal Alloy, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal liver</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal liver.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal liver.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenII"]/label</xpath>
+				<value>
+					<label>abyssal digestive system</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an abyssal digestive system</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenII"]/description</xpath>
+				<value>
+					<description>An installed abyssal digestive system.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenII"]/label</xpath>
+				<value>
+					<label>abyssal digestive system</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenII"]/description</xpath>
+				<value>
+					<description>A complete digestive system in a singular organ-shaped device that converts consumed food efficiency into pure nutrtients, also destroying any illness-causing elements in the process of nutrient conversion, effectively removing risk of food poisoning.\n\nBeing made of Abyssal Alloy, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenII"]/label</xpath>
+				<value>
+					<label>install abyssal digestive system</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenII"]/description</xpath>
+				<value>
+					<description>Install an abyssal digestive system.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing abyssal digestive system.</jobString>
+				</value>
+			</li>
+			
+		</operations>
+	<!-- </match> -->
+</Operation>
+
+</Patch>

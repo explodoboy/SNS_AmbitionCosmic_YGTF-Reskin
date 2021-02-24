@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Replace labels of workgivers. -->
+			<!-- Cosmic Forge/Abyssal Forge -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoBills_SNS_Unobtainer"]/label</xpath>
+				<value>
+					<label>do bills at Abyssal Forge</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoBills_SNS_Constructor"]/label</xpath>
+				<value>
+					<label>do bills at Entropic Fabricator</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoBills_SNS_CosmicDrawer"]/label</xpath>
+				<value>
+					<label>do bills at Abyssal Manipulator</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoBills_SNS_CosmicCall"]/label</xpath>
+				<value>
+					<label>do bills at The Call of the Abyss</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoBills_SNS_PinnacleFabricator"]/label</xpath>
+				<value>
+					<label>do bills at the Dystopia Device</label>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

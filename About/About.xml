@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+<name>Science Never Stops: You're Going Too Far</name>
+<author>explodoboy</author>
+<packageId>explodoboy.SNSAOTCreskin</packageId>
+<url>public.FutureGadgetLab.net</url>
+<supportedVersions><li>1.1</li><li>1.2</li></supportedVersions>
+<modDependencies>
+    <li>
+      <packageId>explodoboy.SNSAmbitionCosmic</packageId>
+      <displayName>Science Never Stops: Ambition of the Cosmic</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1802857253</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>explodoboy.SNSAmbitionCosmic</li>
+    <li>explodoboy.SNSAmbitionCosmic.Gen4Addon</li>
+    <li>explodoboy.SNSAmbitionCosmic.CEPatch</li>
+  </loadAfter>
+<description>Welcome, to SCIENCE NEVER STOPS: YOU'RE GOING TOO FAR! This is a total reskin of Science Never Stops: Ambition of the Cosmic, asking the question 'what happens when science goes too far?'
+
+Well this is the answer you're getting from me, you maniac. You also get some lore for the ancient precursor empire that originally 'invented' the Cosmic materials from the original SNS. Anything in quotation marks and directly referring to the cosmic precursors is considered to be official lore for the original SNS: AOTC.
+
+The Science Never Stops mod was originally made by Aion Algos (formerly known as Alestor) and I do not claim ownership of the original textures/vision of the mod.
+
+This mod is in active development, and I, the mod author, am trying to keep the mod decently balanced so please leave a comment on the Workshop page if you think something needs rebalancing.
+
+PLEASE NOTE: THIS MOD DEPENDS ON SNS: AOTC TO WORK! THIS MOD WILL DO LITERALLY NOTHING WITHOUT THE ORIGINAL MOD TO PATCH.
+</description>
+</ModMetaData>

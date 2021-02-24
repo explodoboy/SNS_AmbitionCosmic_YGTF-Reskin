@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmorHelmet"]/label</xpath>
+				<value>
+					<label>Abyssal Power Armor Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmorHelmet"]/description</xpath>
+				<value>
+					<description>A pressure-sealed Power Armor helmet, made from Abyssal materials. Incredibly lightweight, tough, protective, and comfortable, this power-armor helmet is far superior to that of its predecessors in every way imaginable.\n\nArmor like this isn't seen anywhere but on the most booming, shining Glitterworlds and as useless scrap numbering in the billions on Fortress worlds of a now extinct hyperadvanced precursor. None would dare bring such technology to a planet like a backwards Rimworld.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmor"]/label</xpath>
+				<value>
+					<label>Abyssal Power Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmor"]/description</xpath>
+				<value>
+					<description>A suit of powered armor, made from Abyssal Materials, with a protective forcefield. Incredibly lightweight, tough, protective, and comfortable, this suit is far superior to its predecessors in every way imaginable.\n\nThe armor resonates with an enigmatic energy, providing incredible protection from outside forces. The natural properties of the Abyssal Matter flowing through the armor provides a protective field much alike what Shield Belts provide, but also allowing its user to fire from within the barrier.\n\nArmor like this isn't seen anywhere but on the most booming, shining Glitterworlds and as useless scrap numbering in the billions on Fortress worlds of a now extinct hyperadvanced precursor. None would dare bring such technology to a planet like a backwards Rimworld.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Sniper"]/label</xpath>
+						<value>
+							<label>catalyst turret projectile</label>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Sniper"]/label</xpath>
+						<value>
+							<label>catalyst turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Sniper"]/description</xpath>
+						<value>
+							<description>The gun of a catalyst turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_Sniper"]/label</xpath>
+						<value>
+							<label>catalyst turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_Sniper"]/description</xpath>
+						<value>
+							<description>An automated turret that fires high-power armor-piercing plasma projectiles. It fires slowly, but can defeat even thick Starsteel plating. It has a decent ammo capacity, but may need constant resupply if dealing with a sustained assault. It has a quick-loading mechanism to make up for this fatal flaw, so safe pathways to these turrets should be carefully planned out so that the turret cannot run out of ammunition. The turret is unique in that it its playform is tall, making it impossible to climb onto the platform and move past it. Its impassability should greatly help with such a solution.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionSniper"]/label</xpath>
+						<value>
+							<label>perdition catalyst turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionSniper"]/description</xpath>
+						<value>
+							<description>The gun of a perdition catalyst turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionSniper"]/label</xpath>
+						<value>
+							<label>perdition catalyst turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionSniper"]/description</xpath>
+						<value>
+							<description>An automated turret that fires high-power armor-piercing plasma projectiles. It fires at a decent pace, and can pierce straight through even thick Cosmic Alloy plating. It has a more-than-decent ammo capacity, but may need constant resupply if dealing with a sustained assault. It has a quick-loading mechanism to make up for this fatal flaw, so safe pathways to these turrets should be carefully planned out so that the turret cannot run out of ammunition. The turret is unique in that it its playform is tall, making it impossible to climb onto the platform and move past it. Its impassability should greatly help with such a solution.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

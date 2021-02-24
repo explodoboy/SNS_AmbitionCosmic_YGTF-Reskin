@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_Unobtainium_I"]/description</xpath>
+						<value>
+							<description>Craft an Abyssal Forge batch's worth of Voidsteel.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_I"]/description</xpath>
+						<value>
+							<description>Obtain any amount of Voidsteel by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_II"]/description</xpath>
+						<value>
+							<description>Stockpile a hundred units of Voidsteel by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_III"]/description</xpath>
+						<value>
+							<description>Stockpile a thousand units of Voidsteel by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_IV"]/description</xpath>
+						<value>
+							<description>Stockpile ten-thousand units of Voidsteel by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_CosmicMatter_I"]/description</xpath>
+						<value>
+							<description>Gather Abyssal Matter using the Abyssal Manipulator.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_I"]/description</xpath>
+						<value>
+							<description>Obtain any amount of Abyssal Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_II"]/description</xpath>
+						<value>
+							<description>Stockpile a thousand Abyssal Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_III"]/description</xpath>
+						<value>
+							<description>Stockpile ten-thousand Cosmic Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_Eternium_I"]/description</xpath>
+						<value>
+							<description>Gather Eternal Fabric using the R.I.F.T. Fabricator or the Dysto-- Actually, I won't spoil that to you.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_I"]/description</xpath>
+						<value>
+							<description>Obtian any amount of Eternal Fabric by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_II"]/description</xpath>
+						<value>
+							<description>Stockpile 375 Eternal Fabric by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_III"]/description</xpath>
+						<value>
+							<description>Stickpile three-thousand Eternal Fabric by any means.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftQuality_Gen2_CosmicLance"]/description</xpath>
+						<value>
+							<description>Craft a Legendary-quality Handheld Abyssal Lance.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_CosmicLance"]/label</xpath>
+						<value>
+							<label>cosmic lance charge</label>
+						</value>
+					</li>
+
+					<!-- ammo item -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenII_CosmicLance"]/label</xpath>
+						<value>
+							<label>cosmic lance charge cell</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenII_CosmicLance"]/description</xpath>
+						<value>
+							<description>A container cell filled with pure, high-energy Abyssal Matter. The Abyssal Matter contained inside is just powerful enough to fuel the Handheld Abyssal Lance. The Abyssal Matter within is far too powerful for standard Generation 2 Abyssal weaponry, and would overload and destroy any weaponry not made specifically for abyssal lance charge cells.</description>
+						</value>
+					</li>
+
+					<!-- recipe -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenII_CosmicLance"]/label</xpath>
+						<value>
+							<label>make abyssal lance charge cell x10</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenII_CosmicLance"]/description</xpath>
+						<value>
+							<description>Craft ten large capacitors filled with pure Abyssal Matter for use with the Handheld Abyssal Lance.\n\nStack limit: 10</description>
+						</value>
+					</li>
+
+					<!-- lance projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Bullet_CosmicLance"]/label</xpath>
+						<value>
+							<label>abyssal lance projectile</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

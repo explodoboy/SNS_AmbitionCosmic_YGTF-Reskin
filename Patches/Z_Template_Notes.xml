@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- since PatchOperationFindMod passes through if any mods listed in the <li>'s you need to nest operations if you want to require multiple mods for a patch to go through. -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>MOD1</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>MOD2</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<!-- put ops here -->
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

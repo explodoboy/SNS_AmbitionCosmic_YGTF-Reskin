@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- thing name -->
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_I"]/label</xpath>
+				<value>
+					<label>Abyssal Hydroponics Generation 1</label>
+				</value>
+			</li>
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_I"]/description</xpath>
+				<value>
+					<description>A highly advanced Hydroponics Basin that bathes plants in an artificial nutrient bath alongside distorting the flow of time around said plants to facilitate faster growth. When unpowered, the nutrient pumps will stop and time will flow as normal again, and the plants will quickly die.</description>
+				</value>
+			</li>
+			
+			<!-- thing name -->
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_II"]/label</xpath>
+				<value>
+					<label>Abyssal Hydroponics Generation 2</label>
+				</value>
+			</li>
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_II"]/description</xpath>
+				<value>
+					<description>An arcane device that both infuses plants with Cosmic Matter and bends the flow of time around said plants, causing the rapid growth of plants. Without the Cosmic Matter, the plants will die. Without power, the Cosmic Matter will not flow; the plants will die if power is out for too long.</description>
+				</value>
+			</li>
+			
+			<!-- thing name -->
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_III"]/label</xpath>
+				<value>
+					<label>Abyssal Hydroponics Generation Omega</label>
+				</value>
+			</li>
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_III"]/description</xpath>
+				<value>
+					<description>An arcane device that channels the raw power of another reality entirely, drawing Eternium straight from the Eternal Plane to allow plants to grow beyond the biological limits. Without power, the Eternium cannot flow, and the plants will die; the plants will die without power.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

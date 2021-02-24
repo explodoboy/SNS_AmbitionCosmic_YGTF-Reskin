@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenI_Pistol"]/label</xpath>
+						<value>
+							<label>entropic weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenI_Rifle"]/label</xpath>
+						<value>
+							<label>entropic weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenI_Shotgun"]/label</xpath>
+						<value>
+							<label>entropic weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenI_Sniper"]/label</xpath>
+						<value>
+							<label>entropic weapon charge</label>
+						</value>
+					</li>
+
+					<!-- ammo item -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenI"]/label</xpath>
+						<value>
+							<label>generation 1 entropic weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenI"]/description</xpath>
+						<value>
+							<description>A capacitor cell filled with low-purity, low-energy Abyssal Matter, designed for Generation-1 Entropic weaponry. Extremely cheap to make and highly expendable, but worse than useless without the weapon it was made for. Once charged, the energy cannot be extracted, as the energy within will simply dissipate when containment is broken.\n\nStack limit: 5,000</description>
+						</value>
+					</li>
+
+					<!-- recipe -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenI"]/label</xpath>
+						<value>
+							<label>make generation 1 entropic weapon charge x50</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenI"]/description</xpath>
+						<value>
+							<description>Create 50 shots worth of entropic weapon charge in a convenient capacitor.</description>
+						</value>
+					</li>
+
+					<!-- pistol projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenI_Pistol"]/label</xpath>
+						<value>
+							<label>entropic pistol projectile</label>
+						</value>
+					</li>
+
+					<!-- rifle projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenI_Rifle"]/label</xpath>
+						<value>
+							<label>entropic rifle projectile</label>
+						</value>
+					</li>
+
+					<!-- shotgun projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenI_Shotgun"]/label</xpath>
+						<value>
+							<label>entropic shotgun projectile</label>
+						</value>
+					</li>
+
+					<!-- sniper projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenI_Sniper"]/label</xpath>
+						<value>
+							<label>entropic sniper projectile</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

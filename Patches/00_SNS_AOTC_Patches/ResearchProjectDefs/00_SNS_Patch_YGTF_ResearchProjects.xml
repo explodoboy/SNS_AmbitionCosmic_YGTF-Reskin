@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations> <!-- 30 researches -->
+			<!-- SNS_Research_0 -->
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_0"]/label</xpath>
+				<value>
+					<label>The Path to Ascension</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_0"]/description</xpath>
+				<value>
+					<description>From the dawn of civilization, we have lived in the shadow of the Ancients, a precursor civilization of untold advancement, an empire that brought the grandest materials to our universe: Abyssal Matter. We will take the path they were unable to complete, in both our name and theirs.\n\nThis research won't discover anything on its own, but the future benefits are great.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I"]/label</xpath>
+				<value>
+					<label>The Metal of the Void</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I"]/description</xpath>
+				<value>
+					<description>It is time for us to step up to the occasion, and bring about Abyssal ascension to this world. By learning what Abyssal Matter binds to and is repelled by, we can in theory make an alloy strong enough to house the elusive Abyssal Matter, even if it's just a small amount.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I_linkable"]/label</xpath>
+				<value>
+					<label>Advanced Voidsteel Production</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I_linkable"]/description</xpath>
+				<value>
+					<description>Our current methods of developing Voidsteel is rather inefficient, as it is highly difficult to prepare for the next step of Voidsteel production while currently working on one stage. If we can devise a way to prep for a later stage of Voidsteel production, we could theoretically improve the speed of the Cosmic Forge drastically.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bionics"]/label</xpath>
+				<value>
+					<label>Mechanical Ascension</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bionics"]/description</xpath>
+				<value>
+					<description>Through machines we shall ascend, though we do not need to let go of our bodies yet. Where the body fails, Science shall intervene.</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bionics"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0.65</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_wep"]/label</xpath>
+				<value>
+					<label>Escalation to Violence</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_wep"]/description</xpath>
+				<value>
+					<description>This is a dangerous world, and so we are forced to embrace Abyssal Matter to bring others to the point of the great abyss after life. We will overcome.</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_wep"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1.25</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_armor"]/label</xpath>
+				<value>
+					<label>Abyssal Fortitude</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_armor"]/description</xpath>
+				<value>
+					<description>The tides of time have come crashing against our creations, but we will hold no matter what. May we steel ourselves for the Cycles to come.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_pwr"]/label</xpath>
+				<value>
+					<label>Abyssal Power</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_pwr"]/description</xpath>
+				<value>
+					<description>Abyssal Matter has a nigh-endless energy potential, even in trace amounts. While this energy is far too difficult to handle normally, we seem to have struck a perfect balance with Voidsteel--just enough to allow energy to be extracted while not too much that it immediately goes unstable.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_hydroponics"]/label</xpath>
+				<value>
+					<label>Localised Temporal Distortion</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_hydroponics"]/description</xpath>
+				<value>
+					<description>Abyssal Matter seems to distort the very flow of time around itself, how much this is largely relies on countless variables. In theory, we could use this as a means to quickly grow crops to sustain ourselves.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_medicine"]/label</xpath>
+				<value>
+					<label>To Rival Glitterworld</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_medicine"]/description</xpath>
+				<value>
+					<description>Voidsteel boasts incredible sterile properties, and in theory Abyssal technology could be used in a way to rival medicines only found on distant Glitterworlds.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_medicine"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.35</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_food"]/label</xpath>
+				<value>
+					<label>Advancement of Luxury</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_food"]/description</xpath>
+				<value>
+					<description>When resources are tight but we still want to dine like kings, we adapt.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_food"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.85</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_drugs"]/label</xpath>
+				<value>
+					<label>Advanced Drug Production</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_drugs"]/description</xpath>
+				<value>
+					<description>We pursue pleasure while avoiding addiction.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_drugs"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_furniture"]/label</xpath>
+				<value>
+					<label>Next-Generation Recreation</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_furniture"]/description</xpath>
+				<value>
+					<description>Our joy shall be fulfilled to our own standards, and nothing less.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_furniture"]/researchViewY</xpath>
+				<value>
+					<researchViewY>5.15</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bridge"]/label</xpath>
+				<value>
+					<label>Chaos Theory</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bridge"]/description</xpath>
+				<value>
+					<description>This is not enough. This will never be enough. To settle where we are now is to grow complacent, and to grow complacent is to be doomed to perish, be it from slow decay or from higher forces crashing down upon you. We shall achieve eternity, no matter what.</description>
+				</value>
+			</li>
+
+
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_base"]/description</xpath>
+				<value>
+					<description>Meeting the absolute zenith of human technology, we achieve the Second Generation of the Ancient's arcane technologies.\n\nThis technology unlocks the Abyssal Manipulator, which allows you to either make Abyssal Matter or the legendary Abyssal Alloy.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_linkable"]/label</xpath>
+				<value>
+					<label>Advanced Abyssal Matter Stabilization</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_linkable"]/description</xpath>
+				<value>
+					<description>Our current methods of Abyssal Matter manipulation is crude, drawing chaotic Abyssal Matter almost too unstable to exist in our reality, requiring extreme patience and care when attempting to work with it or draw any remotely stable amount of it. While we can't magically stumble upon a less chaotic varient of Abyssal Matter, we can artificially make it more stable and thus easier to work with.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_bionics"]/label</xpath>
+				<value>
+					<label>Mechanical Perfection</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_bionics"]/description</xpath>
+				<value>
+					<description>We must soar beyond the greatest Archotech, beyond the most shining empire, for we seek Eternity, not the failing cycle of today.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_weaponry"]/label</xpath>
+				<value>
+					<label>Escalation Beyond Violence</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_weaponry"]/description</xpath>
+				<value>
+					<description>Our might is insufficient. There still lie forces beyond us, forces that could possibly bring us down.\n\nNever again.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_armor"]/label</xpath>
+				<value>
+					<label>Indominable Will</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_armor"]/description</xpath>
+				<value>
+					<description>Even the greatest mountain shall eventually be worn down, be it from external forces or even from within. Eliminate these two threats, and our foundation will never crumble.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_power"]/label</xpath>
+				<value>
+					<label>Power Beyond Comprehension</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_power"]/description</xpath>
+				<value>
+					<description>We are growing stronger, we are growing more power-hungry--literally, and we are spending materials that don't have to be spent. Let us skip the process of extracting energy from Abyssal Matter trapped inside a metal cage and instead draw energy from pure, raw Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_hydroponics"]/label</xpath>
+				<value>
+					<label>Unending Fervor</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_hydroponics"]/description</xpath>
+				<value>
+					<description>With Abyssal Matter now in our grasp, we are finally able to further improve our hydroponics basins. Let us show the universe our willpower shall sustain us!</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_medicine"]/label</xpath>
+				<value>
+					<label>Greater Than Glitterworld</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_medicine"]/description</xpath>
+				<value>
+					<description>As our precision grows, our wealth blooms, and our knowledge soars, we become able to achieve a commodity only found on the greatest of Glitterworlds--worlds many argue deserve their own classification, for putting their fellow Glitterworlds in the shadows.</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_medicine"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.35</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_food"]/label</xpath>
+				<value>
+					<label>Decadence</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_food"]/description</xpath>
+				<value>
+					<description>We near perfection in many ways, so why should our food be left behind in the dust?</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_drugs"]/label</xpath>
+				<value>
+					<label>Abyssal Drugs</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_drugs"]/description</xpath>
+				<value>
+					<description>We shall enjoy our existences however long they last, no matter what. May we live long and live well.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_drugs"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_furniture"]/label</xpath>
+				<value>
+					<label>Abyssal Recreation</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_furniture"]/description</xpath>
+				<value>
+					<description>Every moment perfect, our playthings shall shape themselves around our needs.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_furniture"]/researchViewY</xpath>
+				<value>
+					<researchViewY>5</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV"]/label</xpath>
+				<value>
+					<label>The First Ceiling</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV"]/description</xpath>
+				<value>
+					<description>"And there, the Human Expanse reached their first technological ceiling: The barrier between the Expanse today and those who would outlive the Stars themselves."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_linkable"]/label</xpath>
+				<value>
+					<label>THETA: A Brief Interlude</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_linkable"]/description</xpath>
+				<value>
+					<description>"They reached across the universe, learning about more and more variants of the materials that constituted the vast spaces in-between. They discovered Type-Theta, a stability untold."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_cosmicturrets_III"]/label</xpath>
+				<value>
+					<label>Eternal Turrets</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_cosmicturrets_III"]/description</xpath>
+				<value>
+					<description>Through the mastery of the abyss, we grow stronger, we grow eternal.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V"]/label</xpath>
+				<value>
+					<label>Truth of Ascension</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V"]/description</xpath>
+				<value>
+					<description>"...They found that truth, and were reborn as a Demiurge--those who in legend built the universe. Those who called them Demiurge weren't correct, but they also weren't wrong."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V_breakthrough"]/label</xpath>
+				<value>
+					<label>The Brink of Ascension</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V_breakthrough"]/description</xpath>
+				<value>
+					<description>"They just said it too early, was all."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_base"]/label</xpath>
+				<value>
+					<label>Secrets To Eternity</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_base"]/description</xpath>
+				<value>
+					<description>"And then, the stars died, but they still remained. They were reborn the Timeless."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_I"]/label</xpath>
+				<value>
+					<label>The Voidholder's Truths</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_I"]/description</xpath>
+				<value>
+					<description>"They--the Voidholders. They are the absolute, immutable rulers of their society. They are above kinghood, for the Many truly believe them burdened. They are above Burden, for the expectation they hold for themselves is the highest. They are above godhood, for they exist and their will is truly altruistic--at least, to their own, to their kin."\n\n"And every individual member of their species is family, no matter where they come from, no matter where they go. From the dawn of time, to the moment all Creation fizzles out."</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_I"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1.55</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_II"]/label</xpath>
+				<value>
+					<label>The First's Burning Passion</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_II"]/description</xpath>
+				<value>
+					<description>"He, the First Voidholder, the one who had united all of humanity and brought about the First Age of Acension, was said to have a passion in his eyes that burned brighter than every star in the universe, a passion that could have burned the Earth to a crisp if it hadn't already done so."</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_II"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0.05</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_bionics"]/label</xpath>
+				<value>
+					<label>Aepos' Dream</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_bionics"]/description</xpath>
+				<value>
+					<description>"Aepos refused to perish, refused to give in. He would see the Millennium, for he was already at the cusp of that thousandth year of existence. He may have crumbled to dust in the end, but he had the last laugh, for he had foreseen the reign of Epoch, for he had lived one-thousand-years-and-two-seconds. In that last instant of existence, all eternity was laid before him, and he knew his kin's eyes would never close."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_weaponry"]/label</xpath>
+				<value>
+					<label>Kaold's Grasp</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_weaponry"]/description</xpath>
+				<value>
+					<description>"And thus, at the climax of the battle Voidholder Kaold Abyss, the Finale, the Vision, the Eternal, he rose from his throne from within the catacombs of Starholder, and he stood tall, he raised his arms to the planet above, and then he clapsed his hands. The planet crumbled, as his Force of Will reverberated across the very fabric of all creation."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_armor"]/label</xpath>
+				<value>
+					<label>Charon's Will</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_armor"]/description</xpath>
+				<value>
+					<description>"Voidholder Charon Abyss sat unbroken on his throne. His body was frail and aged from over a hundred years of life, mechanical pieces littering his body in a vain attempt to delay age."\n\n"And yet, though his body was nigh a dessicated corpse his eyes burned with a will so powerful that it almost made him seem young."\n\n"After 152 years of life, he fell from the throne for the last time, but even in death his face bore the mark of endless ambition, of endless will."\n\n"His willpower lived longer than his body ever could, for his legacy never died."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_power"]/label</xpath>
+				<value>
+					<label>Nox's Despair</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_power"]/description</xpath>
+				<value>
+					<description>"For all he knew, he was going to be the last Voidholder. His civilization, the ivory tower atop all of creation was going to run out of energy, and his people were going to die forever."\n\n"And there, he found that power that coursed through his bloodline since the reign of Kyklos; the foresaw a place that would come to life at the very moment his civilization."\n\n"A fracture of his great civilization ventured forth, and then the rest of his empire died--and he stayed behind to soothe the minds of the countless innocent souls who could not be saved, hoping Kaold could do what he could not."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_hydroponics"]/label</xpath>
+				<value>
+					<label>Zenith's Ambition</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_hydroponics"]/description</xpath>
+				<value>
+					<description>"Voidholder Zenith Abyss was born with desire, with great ambition. He sought to not only allow the Expanse to grow far and wide, but also deep into the sands of time."\n\n"His ambitions were pursued by the Voidholders to come after him, until the fateful day Epoch Abyss was born, and with him the first immortal generation was born."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_medicine"]/label</xpath>
+				<value>
+					<label>Kyklos' Ascent</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_medicine"]/description</xpath>
+				<value>
+					<description>"The Expanse burned down, but Man was still alive. The storm had passed, and the slow ascent to greatness began again. It mattered not that thousands of years of progress was lost, it in the grand scheme of all things would be but a bump in the road."\n\n"And they rebuilt, and they rose, and Kyklos was there the entire time to ensure his premonition would ring true until the day he died."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_food"]/label</xpath>
+				<value>
+					<label>Eta's Desire: Pattern FD</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_food"]/description</xpath>
+				<value>
+					<description>"Eta Abyss brought about the age of hedonism, and the Expanse prospered. This dream of hedonism persisted past the day the Expanse was reborn the Timeless, past the great descent, up to the day they escaped fate and were brought down in a glorious blaze."\n\n"The Many lived in wonder of the grand foodstuffs that permeated society, improved by the sciences to reach the zenith of what the human body could taste, and soon beyond."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_drugs"]/label</xpath>
+				<value>
+					<label>Eta's Desire: Pattern DR</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_drugs"]/description</xpath>
+				<value>
+					<description>"Eta Abyss brought about the age of hedonism, and the Expanse prospered. This dream of hedonism persisted past the day the Expanse was reborn the Timeless, past the great descent, up to the day they escaped fate and were brought down in a glorious blaze."\n\n"The Many reveled in new recreational substances that were free of addiction and free of side-effects, pushing the human mind to the limits of what it could process, and soon beyond."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_furniture"]/label</xpath>
+				<value>
+					<label>Eta's Desire: Pattern RC</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_furniture"]/description</xpath>
+				<value>
+					<description>"Eta Abyss brought about the age of hedonism, and the Expanse prospered. This dream of hedonism persisted past the day the Expanse was reborn the Timeless, past the great descent, up to the day they escaped fate and were brought down in a glorious blaze."\n\n"The Many enjoyed so many new methods of enjoying the universe, many new shows and songs exploring new concepts never explored before, pushing culture to its zenith, and soon beyond."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_final"]/label</xpath>
+				<value>
+					<label>Epoch's Eternity</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_final"]/description</xpath>
+				<value>
+					<description>"And so, Voidholder Epoch Abyss was born, and with his birth the reaper of age died."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VII"]/label</xpath>
+				<value>
+					<label>The First Cycle</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VII"]/description</xpath>
+				<value>
+					<description>"And so, they survived the Cycle, for the first time. They ascended beyond all else, and Kaold Abyss rose to eternity, his civilization reborn one final time. They were the First Cycle, soon to seed themselves across eternity to become immortal in a sense."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_infinite"]/label</xpath>
+				<value>
+					<label>Carina's Curse</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_infinite"]/description</xpath>
+				<value>
+					<description>"Carina Abyss, the Hands of Change was born to one day supercede her father as the Voidholder, to continue the cycle that had gone on for eternity."\n\n"Alas, the Timeless would be reborn once more for the final time and Kaold Abyss would hold onto the throne for all eternity."\n\n[[NOTE: This research can NOT be completed. Ever. Not even using an item that instantly finishes a research will NOT work on this, as this research will just reset itself back to zero.]]\n\nThe number of TechProf Subpersona Cores you've probably wasted on this research:</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

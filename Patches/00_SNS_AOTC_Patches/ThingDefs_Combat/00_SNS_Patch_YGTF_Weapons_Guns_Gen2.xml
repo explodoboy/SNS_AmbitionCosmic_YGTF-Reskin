@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen2 pistol -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenII_Bullet"]/label</xpath>
+				<value>
+					<label>abyssal pistol projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenII"]/label</xpath>
+				<value>
+					<label>abyssal pistol</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenII"]/description</xpath>
+				<value>
+					<description>An advanced pistol that shoots low-energy Abyssal Matter at suprising velocities. Neglibible recoil and unexpected accuracy.\n\nThe abyssal pistol can be rarely seen on ultra-rich Glitterworlds by the highest classes of military personnel for its extreme reliability, lethality, and cost. It is also used by higher-class military personnel or special operations units by Abyssal Empire militaries.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 rifle -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenII_Bullet"]/label</xpath>
+				<value>
+					<label>abyssal rifle projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenII"]/label</xpath>
+				<value>
+					<label>abyssal rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenII"]/description</xpath>
+				<value>
+					<description>A fully automatic rifle that propels low-energy Abyssal Matter at extreme velocities, without producing any recoil whatsoever. Its projectiles are the weakest of abyssal weapons, but its firerate is more than enough to compensate.\n\nThe abyssal rifle can be rarely seen on ultra-rich Glitterworlds by the highest classes of military personnel for its extreme reliability, lethality, and cost. It is also used by higher-class military personnel or special operations units by Abyssal Empire militaries.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 shotgun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenII_Bullet"]/label</xpath>
+				<value>
+					<label>abyssal shotgun projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenII"]/label</xpath>
+				<value>
+					<label>abyssal shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenII"]/description</xpath>
+				<value>
+					<description>An advanced shotgun that fires a devastating clump of high-energy plasma projectiles that excel at obliterating armor. While its range is unarguably terrible (as to be expected from a shotgun), its power and armor-shattering properties are more than enough compensation.\n\nThe cosmic shotgun can be rarely seen on ultra-rich Glitterworlds by the highest classes of military personnel for its extreme reliability, lethality, and cost. It is also used by higher-class military personnel or special operations units by Abyssal Empire militaries.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 sniper -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenII_Bullet"]/label</xpath>
+				<value>
+					<label>abyssal sniper projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenII"]/label</xpath>
+				<value>
+					<label>abyssal sniper</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenII"]/description</xpath>
+				<value>
+					<description>An advanced high-power sniper made from abyssal Alloy. Will leave a red mist wherever it hits, even if it doesn't kill the target in a single shot. Almost always hits its shots at long ranges. Takes a while to load and shoot, but one shot is all you will ever need.\n\nThe abyssal sniper can be rarely seen on ultra-rich Glitterworlds by the highest classes of military personnel for its extreme reliability, lethality, and cost. It is also used by higher-class military personnel or special operations units by Abyssal Empire militaries.</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Lance -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicLance_Bullet"]/label</xpath>
+				<value>
+					<label>Abyssal Lance projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicLance"]/label</xpath>
+				<value>
+					<label>Handheld Abyssal Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicLance"]/description</xpath>
+				<value>
+					<description>A weapon made of pure Abyssal Alloy, further supercharged with pure Cosmic Matter, the Handheld Abyssal Lance is a miniature version of the Abyssal Lance, a supermassive ship weapon. It charges slowly and takes a long time to cool down between shots, but is able to utterly devastate whatever its projectiles hit. Few things are able to withstand more than a single shot from the Lance.\n\nWhile it excels at long range and extremely close range, it is highly inconsistent at medium ranges. Care should be taken with the Lance since its explosions can accidentially destroy things.\n\nThe full-sized ship weapon Abyssal Lance is both extremely rare and feared for its ability to devastate entire planets with just a few Cosmic Lances firing from orbit, despite it needing a long time to cool down between shots.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

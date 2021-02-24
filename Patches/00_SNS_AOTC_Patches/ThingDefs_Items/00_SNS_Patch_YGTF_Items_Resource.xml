@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Starsteel/Voidsteel -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium"]/label</xpath>
+				<value>
+					<label>Voidsteel</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium"]/description</xpath>
+				<value>
+					<description>Voidsteel is an alloy of Plasteel and Gold, infused with trace amounts of Abyssal Matter, a material that is otherwise far too unstable to exist in this reality without highly advanced containment. Voidsteel feels soft to the touch, while remaining incredibly tough against impacts. It is light, somewhat easier to build with, and has a few antimicrobial properties.\n\nIn theory, the Abyssal Matter trapped within could possibly be exploited to generate vasts amounts of energy.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium"]/stuffProps/color</xpath>
+				<value>
+					<color>(50,50,50)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,200,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Starsteel Wool/Voidsteel Wool -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fiber"]/label</xpath>
+				<value>
+					<label>Voidsteel Wool</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fiber"]/description</xpath>
+				<value>
+					<description>This metal-like textile is composed of dense strands of Voidsteel. It is highly resilliant, flexible, and comfortable. It is usable as both leather and fabric if prepared properly.\n\nDisclaimer: This is not remotely like wool.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fiber"]/stuffProps/color</xpath>
+				<value>
+					<color>(50,50,50)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fiber"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,200,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Alloy/Abyssal Alloy -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloy"]/label</xpath>
+				<value>
+					<label>Abyssal Alloy</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloy"]/description</xpath>
+				<value>
+					<description>Abyssal Alloy is an enhanced Voidsteel, overcharged with high amounts of Abyssal Matter. Abyssal Alloy is superior to its predecessor in every way, being softer to the touch, even lighter, easier to build with, more impact-resistant, flexible, and antimicrobial.\n\nIt is truly the perfect material.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloy"]/stuffProps/color</xpath>
+				<value>
+					<color>(25,25,25)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloy"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Weave/Abyssal Weave -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/label</xpath>
+				<value>
+					<label>Abyssal Weave</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/description</xpath>
+				<value>
+					<description>This metal-like textile is composed of dense strands of Abyssal Alloy, allowing it to inherit the same properties as Abyssal Alloy--it is incredibly resiliant, flexible, and comfortable. It can be used as both a leather and fabric.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/stuffProps/color</xpath>
+				<value>
+					<color>(25,25,25)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Component/Abyssal Component -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Component_GenII"]/label</xpath>
+				<value>
+					<label>Abyssal Component</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Component_GenII"]/description</xpath>
+				<value>
+					<description>A singular universal component that can be used for almost any task. It is vital for most if not all Generation 2 technologies.</description>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Component_GenII"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Catalyst Fuel Cell/Abyssal Catalyst Fuel Cell -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fuel"]/label</xpath>
+				<value>
+					<label>Abyssal Catalyst Fuel Cell</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fuel"]/description</xpath>
+				<value>
+					<description>WARNING: Explosive Superhazard.\n\nThe Abyssal Catalyst Fuel Cell is a small cylinder filled with a reactant for drawing power.\n\nDepending on what it is made of, it can either be filled with Uranium and Voidsteel or just pure Abyssal Matter.\n\nThe Abyssal Catalyst Fuel Cell's reaction is safe unless a cell's containment is breached, which would cause the full uncontrolled release of all its energy and a followingly violent explosion.\ntldr; If it's destroyed, often by nearby explosions, it will explode violently.\n\nThe Catalyst Fuel Cell is not vulnerable to fire; it does not combust.\n\nAn explosion can be supermassive if a fully fueled Abyssal Reactor is destroyed by something that also destroys the Catalyst Fuel Cells, like a high-damage explosion. Best keep it somewhere nice and away from mortar fire.</description>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fuel"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(71,163,0,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Matter/Abyssal Matter -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicMatter"]/label</xpath>
+				<value>
+					<label>Abyssal Matter</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicMatter"]/description</xpath>
+				<value>
+					<description>Abyssal Matter is an extradimensional matter that does not fit anywhere on the periodic table. Its properties seem to shift without meaning, flowing freely between gas, liquid, and solid, and sometimes literal nightmare fuel. It must be contained in a hardy container. Fortunately, this makes Abyssal Matter incredibly light, even lighter than Abyssal Alloy. It by itself can not be used in normal construction or be intergrated in any technology.\n\nHowever, it is a vital ingredient in the most advanced Abyssal-tier weaponry and buildings, and high volumes almost always must be used.</description>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicMatter"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Weave/Abyssal Weave -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Eternium"]/label</xpath>
+				<value>
+					<label>Eternal Fabric</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Eternium"]/description</xpath>
+				<value>
+					<description>Eternal Fabric is a material that appears to be the literal foundation of all of reality itself, and can not fit anywhere on the periodic table. Its properties shift with minimal coercion, taking the properties of any material from gas to solid, leather to metal, and stone to wood while being nigh-impenetrable. While not as light as its fellow Abyssal materials, it is still incredibly lightweight and easy to use.\n\nThis is... Truly the perfect material.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Eternium"]/stuffProps/color</xpath>
+				<value>
+					<color>(255,0,0)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Eternium"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

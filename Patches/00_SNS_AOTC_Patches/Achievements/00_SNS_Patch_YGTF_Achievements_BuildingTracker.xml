@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Unobtainer"]/description</xpath>
+						<value>
+							<description>Construct an Abyssal Forge.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_CosmicManipulator"]/description</xpath>
+						<value>
+							<description>Construct an Abyssal Manipulator.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_PinnacleFabricator"]/description</xpath>
+						<value>
+							<description>Construct the Dystopia Device.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Telescope_GenIII"]/description</xpath>
+						<value>
+							<description>Construct a stellar observation device.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Reactor_GenI"]/description</xpath>
+						<value>
+							<description>Construct an Abyssal Reactor Generation 1</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Reactor_GenII"]/description</xpath>
+						<value>
+							<description>Construct an Abyssal Reactor Generation 2</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Reactor_GenIII"]/description</xpath>
+						<value>
+							<description>Construct an Abyssal Reactor Generation Omega</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

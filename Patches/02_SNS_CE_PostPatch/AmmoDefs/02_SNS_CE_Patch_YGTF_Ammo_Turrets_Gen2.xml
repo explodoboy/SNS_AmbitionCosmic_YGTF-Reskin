@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Turret_Rifle"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Turret_OverdriveRifle"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Turret_Sniper"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Turret_Lance"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Turret_EnigmaticLance"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+
+					<!-- gen2 rifle projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Gun_Turret_Bullet_Cosmic"]/label</xpath>
+						<value>
+							<label>abyssal turret projectile</label>
+						</value>
+					</li>
+
+					<!-- gen3 rifle projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Gun_Turret_Bullet_OverdriveCosmic"]/label</xpath>
+						<value>
+							<label>overcharged abyssal turret projectile</label>
+						</value>
+					</li>
+
+					<!-- sniper projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Gun_Turret_Bullet_OverdriveSniper"]/label</xpath>
+						<value>
+							<label>abyssal sniper projectile</label>
+						</value>
+					</li>
+
+					<!-- lance projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Gun_Turret_Bullet_Lance"]/label</xpath>
+						<value>
+							<label>abyssal lance projectile</label>
+						</value>
+					</li>
+
+					<!-- enig. lance projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_CE_Gun_Turret_Bullet_EnigmaticLance"]/label</xpath>
+						<value>
+							<label>enigmatic lance projectile</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

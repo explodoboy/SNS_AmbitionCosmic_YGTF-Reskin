@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations><!-- Cosmic Weave/Abyssal Weave -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_StableMatter"]/label</xpath>
+				<value>
+					<label>Stalwart Fabric</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_StableMatter"]/description</xpath>
+				<value>
+					<description>Stalwart Fabric is a strange material that simply ignores the laws of physics almost entirely. It is not only immune to entropy, but in fact utterly incapable of interacting with entropy as a whole. As a consequence, time does not even remotely exist to Stalwart Fabric, nor can it even theoretically. It is still able to interact with matter in various ways, however, including reflecting red light. It's truly a paradox, being something that can't be interacted with by anything in the universe BUT can interact with anything in said universe without compromising itself at all.\n\nTLDR; Time doesn't exist to Stalwart Fabric therefore it's invincible, but still exists. You probably have Eternal Fabric so you can change its shape.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_StableMatter"]/stuffProps/color</xpath>
+				<value>
+					<color>(10,10,10)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_StableMatter"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(10,10,10,0)</glowColor>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

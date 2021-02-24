@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Nutrient Bar Gen1 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Nutrient_GenI"]/label</xpath>
+				<value>
+					<label>nutrient bar</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Nutrient_GenI"]/description</xpath>
+				<value>
+					<description>A solidified nutrient-paste-like bar of protein, carbohydrates, and vitamins, amino acids and minerals prepared in a way that it won't spoil. Everything the body needs. It tastes horrible and is somehow simultaneously hard like hardtack and then is powdery when you finally are able to chew it. Most would prefer Nutrient Paste over this monstrosity.\n\nUnlike Nutrient Paste, the Nutrient Bar will not go bad or spoil, but it will still deteriorate at a very slow rate when left outside.</description>
+				</value>
+			</li>
+			
+			<!-- Nutrient Bar Gen2 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Nutrient_GenII"]/label</xpath>
+				<value>
+					<label>advanced nutrient bar</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Nutrient_GenII"]/description</xpath>
+				<value>
+					<description>A nutrient bar made of of protein, carbohydrates, and vitamins, amino acids, minerals, a small amount of Abyssal Alloy and Abyssal Matter that won't spoil or deteriorate. Everything the body needs. It is enhanced with Abyssal Alloy and a trace amount of Abyssal Matter to eliminate any flavor, and is slightly chewy, making a foodstuff that is completely neutral in experience. People won't feel worse or better from eating this.</description>
+				</value>
+			</li>
+			
+			<!-- Nutrient Bar Gen3 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Nutrient_GenIII"]/label</xpath>
+				<value>
+					<label>luxurious nutrient bar</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Nutrient_GenIII"]/description</xpath>
+				<value>
+					<description>A nutrient bar made of of protein, carbohydrates, and vitamins, amino acids, minerals, a small amount of Eternal Fabric that won't spoil or deteriorate. Everything the body needs. It is enhanced with Eternal Fabric to make it taste as good as it can while retaining a good texture, making a foodstuff equal to the Lavish Meal in experience.</description>
+				</value>
+			</li>
+			
+			<!-- Meal Gen1 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenI"]/label</xpath>
+				<value>
+					<label>luxurious meal</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenI"]/description</xpath>
+				<value>
+					<description>A true masterpiece of the culinary arts, this meal is equally as high-quality as the Lavish meal while needing only a single main ingredient to make. This meal is also prepared in a way that it will last a lot longer than most other meals before it spoils.</description>
+				</value>
+			</li>
+			
+			<!-- Meal Gen2 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenII"]/label</xpath>
+				<value>
+					<label>decadent meal</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenII"]/description</xpath>
+				<value>
+					<description>A foodstuff better than even the Lavish Meal, it is improved by the properties of Abyssal Alloy and Abyssal Matter to make a truly stellar meal that will never spoil. The food itself is kept safe inside airtight packaging, drastically reducing the rate it deteriorates.\n\nOnly the richest, most technologically advanced Glitterworlds are able to mass-produce these, due to the extreme rarity of pure Cosmic Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Meal Gen3 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenIII"]/label</xpath>
+				<value>
+					<label>hedonistic meal</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenIII"]/description</xpath>
+				<value>
+					<description>The number one choice of hedonists, this meal is seen nowhere but the most gleaming, rich Glitterworlds--the only worlds rich enough to have their hands on advanced Precursor technologies. These meals never spoil or deteriorate due to their perfected packaging. Chances are that if this wasn't made here, it was made by the civilisation that originally discovered Abyssal Matter and survived an untold amount of time to find itself in your grasp.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

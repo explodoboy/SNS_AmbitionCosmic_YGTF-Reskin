@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen0"]/description</xpath>
+						<value>
+							<description>Research the [The Path to Ascension] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenI"]/description</xpath>
+						<value>
+							<description>Construct an Entropic Analyzer.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen1_Unobtainer"]/description</xpath>
+						<value>
+							<description>Research the [The Metal of the Void] technology and enter Generation 1 of Science Never Stops: You're Going Too Far</description>
+						</value>
+					</li>
+
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenI"]/description</xpath>
+						<value>
+							<description>Construct an Abyssal Analyzer.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen1_Bridge"]/description</xpath>
+						<value>
+							<description>Research the [The Second Generation] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen2_Ceiling_I"]/description</xpath>
+						<value>
+							<description>Research the [The First Ceiling] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen2_Ceiling_II"]/description</xpath>
+						<value>
+							<description>Research the [The Brink of Ascension] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenIII"]/description</xpath>
+						<value>
+							<description>Construct the Call of the Abyss.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen3_Beginning"]/description</xpath>
+						<value>
+							<description>Research the [Secrets to Eternity] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen3_UntoZenith"]/description</xpath>
+						<value>
+							<description>Learn the secrets of [Epoch's Eternity]. (research Epoch's Eternity)</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen4"]/description</xpath>
+						<value>
+							<description>Finish the technology tree of Science Never Stops: You're Going Too Far by researching the [The First Cycle] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_infinite"]/description</xpath>
+						<value>
+							<description>Spend a TechProf Subpersona Core on the [Carina's Curse] technology. Farewell, it's all uphill from here.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

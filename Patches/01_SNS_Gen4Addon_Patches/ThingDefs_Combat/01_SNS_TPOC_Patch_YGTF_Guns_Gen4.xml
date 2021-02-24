@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>SNS AOTC: True Pinnacle of Creation</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_BeholderGun"]/description</xpath>
+				<value>
+					<description>Acronym: Baryon-Entropy Hard-driver Omni-Looping Decimator EXARCH Rifle\n\nA weapon charged with Stalwart Fabric, made like its predecessor the EXARCH. The weapon itself is incredibly advanced, able to lob projectiles over walls with great accuracy, just like a mortar.</description>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

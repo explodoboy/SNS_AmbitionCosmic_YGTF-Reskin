@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Cosmic"]/label</xpath>
+						<value>
+							<label>abyssal turret projectile</label>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Cosmic"]/label</xpath>
+						<value>
+							<label>abyssal turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Cosmic"]/description</xpath>
+						<value>
+							<description>The gun of an abyssal turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_Cosmic"]/label</xpath>
+						<value>
+							<label>abyssal turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_Cosmic"]/description</xpath>
+						<value>
+							<description>A heavy automatic turret. Fires like a minigun, spewing its reserves at whatever crosses its path without remorse. Has a high ammunition capacity, but will eventually have to be reloaded. Reload times are long.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionCosmic"]/label</xpath>
+						<value>
+							<label>perdition abyssal turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionCosmic"]/description</xpath>
+						<value>
+							<description>The gun of a perdition abyssal turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionCosmic"]/label</xpath>
+						<value>
+							<label>perdition abyssal turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionCosmic"]/description</xpath>
+						<value>
+							<description>A heavy automatic turret. Fires like at a rapid pace, spewing its reserves at whatever crosses its path without remorse or cooldown. Has a high ammunition capacity, but will eventually have to be reloaded. Reload times are long.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalCosmic"]/label</xpath>
+						<value>
+							<label>overcharged abyssal turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalCosmic"]/description</xpath>
+						<value>
+							<description>The gun of an overcharged abyssal turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalCosmic"]/label</xpath>
+						<value>
+							<label>overcharged cosmic turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalCosmic"]/description</xpath>
+						<value>
+							<description>A heavy automatic turret. Fires like a minigun, spewing its reserves at whatever crosses its path without remorse. Has a high ammunition capacity, but will eventually have to be reloaded. Reload times are long.\n\nIts power output is increased drastically, able to fire much more powerful projectiles without the need for higher-power weapon charge.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalPerditionCosmic"]/label</xpath>
+						<value>
+							<label>overcharged perdition abyssal turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalPerditionCosmic"]/description</xpath>
+						<value>
+							<description>The gun of an overcharged perdition abyssal turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalPerditionCosmic"]/label</xpath>
+						<value>
+							<label>overcharged perdition abyssal turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalPerditionCosmic"]/description</xpath>
+						<value>
+							<description>A heavy automatic turret. Fires like at a rapid pace, spewing its reserves at whatever crosses its path without remorse or cooldown. Has a high ammunition capacity, but will eventually have to be reloaded. Reload times are long.\n\nIts power output has been increased drastically, able to fire much more powerful projectiles without the need for higher-power weapon charge.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

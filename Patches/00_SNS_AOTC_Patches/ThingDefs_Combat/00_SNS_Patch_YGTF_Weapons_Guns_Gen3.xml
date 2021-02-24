@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen3 pistol -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>eternal pistol projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenIII"]/label</xpath>
+				<value>
+					<label>eternal pistol</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenIII"]/description</xpath>
+				<value>
+					<description>A grand pistol that fires small amounts of Eternal Fabric at terrifying rates. Its power is unrivaled by any other pistol.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 rifle -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>eternal rifle projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenIII"]/label</xpath>
+				<value>
+					<label>eternal rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenIII"]/description</xpath>
+				<value>
+					<description>A fully automatic rifle that propels a small amount of Eternal Fabric at terrifying velocities, and does not produce any recoil whatsoever. Its projectiles are the weakest of eternal weapons, but its firerate is more than enough to compensate.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 shotgun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>eternal shotgun projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenIII"]/label</xpath>
+				<value>
+					<label>eternal shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane shotgun that fires a devastating clump of Eternal Fabric projectiles that excel at effectively erasing armor. While its range is the worst of the eternal weapons (as to be expected from a shotgun), its power and armor-shattering properties are more than enough compensation.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 sniper -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>eternal sniper projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenIII"]/label</xpath>
+				<value>
+					<label>eternal sniper</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane sniper rifle made of eternal Fabric and Abyssal Alloy. It fires pure low-energy Eternal Fabric projectiles that often obliterates whatever it hits, able to go through entire bodies top to bottom and still have enough energy left to dent the floor beneath. Even grazing blows are highly dangerous. The rifle can be used at all ranges, though its accuracy is unrivaled at the longest ranges.</description>
+				</value>
+			</li>
+			
+			<!-- The EXARCH -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Omega_Bullet"]/label</xpath>
+				<value>
+					<label>EXARCH projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_EterniumLance"]/label</xpath>
+				<value>
+					<label>The EXARCH</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_EterniumLance"]/description</xpath>
+				<value>
+					<description>A weapon made of pure Eternal Fabric, this superweapon fires deadly Eternal Fabric at an incredibly rapid speed. Just like its precessor, its projectile will make short work of anything in its way, and something that suvives one shot probably won't survive the next.\n\nLike the Abyssal Lance, it excels at long and close range but may be harder to use at medium range.\n\nIt is so dangerous that it should not be used anywhere near something valuable, since it can easily destroy entire colonies by itself.\n\nExtreme care should be taken with the EXARCH since it can wipe out its user if said user shoots at a target that gets too close.\n\nNo, seriously. EXARCH projectiles will literally kill a CHARON suit user in a few shots depending on suit quality.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

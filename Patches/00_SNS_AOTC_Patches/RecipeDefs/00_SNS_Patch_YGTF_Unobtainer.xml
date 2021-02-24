@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Starsteel/Voidsteel Craft -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium"]/label</xpath>
+				<value>
+					<label>make Voidsteel</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium"]/description</xpath>
+				<value>
+					<description>Create a binding agent for Abyssal Matter, to be filled to produce Voidsteel.</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium"]/jobString</xpath>
+				<value>
+					<jobString>Forging Voidsteel</jobString>
+				</value>
+			</li>
+			
+			<!-- Starsteel Wool/Voidsteel Wool Craft -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium_Fiber"]/label</xpath>
+				<value>
+					<label>make Voidsteel 'Wool'</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium_Fiber"]/description</xpath>
+				<value>
+					<description>Weave fibers from Voidsteel that can be used as a fabric in tailoring.</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium_Fiber"]/jobString</xpath>
+				<value>
+					<jobString>Weaving Voidsteel 'Wool'.</jobString>
+				</value>
+			</li>
+			
+			<!-- Starsteel from Starsteel Wool/Voidsteel from Voidsteel Wool Craft -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium_FiberCompress"]/label</xpath>
+				<value>
+					<label>make Voidsteel from Voidsteel 'Wool'</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium_FiberCompress"]/description</xpath>
+				<value>
+					<description>Compress Voidsteel Wool back into solid blocks of Voidsteel.</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Unobtainium_FiberCompress"]/jobString</xpath>
+				<value>
+					<jobString>Compressing Voidsteel 'Wool'.</jobString>
+				</value>
+			</li>
+			
+			<!-- Catalyst Cell Craft -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fuel"]/label</xpath>
+				<value>
+					<label>make Abyssal Fuel Cells</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fuel"]/description</xpath>
+				<value>
+					<description>Create a hundred fuel cells of Abyssal Alloy filled with crushed Uranium and fill the container with Voidsteel. The reaction between Uranium and Abyssal Matter trapped inside the Voidsteel will create the perfect catalyst for energy generation.</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Fuel"]/jobString</xpath>
+				<value>
+					<jobString>Creating Catalyst Cells.</jobString>
+				</value>
+			</li>
+			
+			<!-- Stellar/Entropic Medicine Craft x1 -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenI"]/label</xpath>
+				<value>
+					<label>make Entropic medicine (x1)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenI"]/description</xpath>
+				<value>
+					<description>Improve industrial-grade Medicine with Voidsteel tools to create something on-par with Glitterworld medicine.</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Creating Entropic medicine</jobString>
+				</value>
+			</li>
+			
+			<!-- Stellar/Entropic Medicine Craft x5 -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenI_bulk"]/label</xpath>
+				<value>
+					<label>bulk make Entropic medicine (x5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenI_bulk"]/description</xpath>
+				<value>
+					<description>Improve industrial-grade Medicine with Voidsteel tools to create something on-par with Glitterworld medicine.\n\nCreating Entropic medicine in bulk is 15% faster than individually making five kits of Entropic medicine, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenI_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating Entropic medicine</jobString>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

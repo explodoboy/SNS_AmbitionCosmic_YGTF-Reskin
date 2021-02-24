@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Base_BionicBodyPart_GenIV"]/graphicData/color</xpath>
+				<value>
+					<color>(255,70,70)</color>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediff_GenIV"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(255,0,0)</defaultLabelColor>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediffImplant_GenIV"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(255,0,0)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenIV"]/label</xpath>
+				<value>
+					<label>zenith eye</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith eye</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith eye.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenIV"]/label</xpath>
+				<value>
+					<label>zenith eye</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenIV"]/description</xpath>
+				<value>
+					<description>An eye made of pure Eternal Fabric, it is able to see beyond the limited perspective of our reality. It does not matter when or if something happened, for it can be seen by the eye. The eye can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith eye</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith eye.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith eye.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenIV"]/label</xpath>
+				<value>
+					<label>zenith ear</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith ear</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith ear.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenIV"]/label</xpath>
+				<value>
+					<label>zenith ear</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenIV"]/description</xpath>
+				<value>
+					<description>An ear made of pure Eternal Fabric, it is able to listen beyond the thin walls of our reality. It does not matter where or when something has occured, for nothing escapes the ear's attention. The ear can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith ear</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith ear.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith ear.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenIV"]/label</xpath>
+				<value>
+					<label>zenith nose</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith nose</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith nose.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenIV"]/label</xpath>
+				<value>
+					<label>zenith nose</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenIV"]/description</xpath>
+				<value>
+					<description>A nose made of pure Eternal Fabric, it can sense whatever can be smelled all across time and existence, no matter where and when. It does not matter if something no longer exists, or has fled this reality, for its traces can be found. The nose can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith nose</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith nose.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith nose.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenIV"]/label</xpath>
+				<value>
+					<label>zenith jaw</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith jaw</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith jaw.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenIV"]/label</xpath>
+				<value>
+					<label>zenith jaw</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenIV"]/description</xpath>
+				<value>
+					<description>A jaw made of pure Eternal Fabric, it is able to utterly destroy whatever it can reach. Only Eternal Fabric itself can withstand its force. The jaw can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith jaw</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith jaw.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith jaw.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenIV"]/label</xpath>
+				<value>
+					<label>zenith head shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an zenith head shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith head shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenIV"]/label</xpath>
+				<value>
+					<label>zenith head shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenIV"]/description</xpath>
+				<value>
+					<description>'Armor' made for the head, made of pure Eternal Fabric. Truth is, it is moreso an infusion of Eternal Fabric into the head than an armor, though the effects are the exact same, creating a nigh-indestructable barrier.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith head shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenIV"]/description</xpath>
+				<value>
+					<description>Install an zenith head shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith head shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenIV"]/label</xpath>
+				<value>
+					<label>zenith neck shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith neck shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith neck shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenIV"]/label</xpath>
+				<value>
+					<label>zenith neck shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenIV"]/description</xpath>
+				<value>
+					<description>'Armor' made for the neck, made of pure Eternal Fabric. Truth is, it is moreso an infusion of Eternal Fabric into the neck than an armor, though the effects are the exact same, creating a nigh-indestructable barrier.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith neck shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith neck shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith neck shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenIV"]/label</xpath>
+				<value>
+					<label>zenith torso shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith torso shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith torso shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenIV"]/label</xpath>
+				<value>
+					<label>zenith torso shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenIV"]/description</xpath>
+				<value>
+					<description>'Armor' made for the torso, made of pure Eternal Fabric. Truth is, it is moreso an infusion of Eternal Fabric into the torso than an armor, though the effects are the exact same, creating a nigh-indestructable barrier.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith torso shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith torso shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith torso shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenIV"]/label</xpath>
+				<value>
+					<label>zenith arm</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith arm</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith arm.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenIV"]/label</xpath>
+				<value>
+					<label>zenith arm</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenIV"]/description</xpath>
+				<value>
+					<description>An arm made of pure Eternal Fabric, it has no true physical limits to what it can grasp and build with. Time itself is at its user's grasp, a grasp never seen before. The arm can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenIV"]/label</xpath>
+				<value>
+					<label>nstall zenith arm</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith arm.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith arm.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenIV"]/label</xpath>
+				<value>
+					<label>zenith leg</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith leg</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith leg.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenIV"]/label</xpath>
+				<value>
+					<label>zenith leg</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenIV"]/description</xpath>
+				<value>
+					<description>A leg made of pure Eternal Fabric it has nigh-on zero limits to what it can traverse. The leg can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith leg</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith leg.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith leg.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenIV"]/label</xpath>
+				<value>
+					<label>zenith spine</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith spine</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith spine.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenIV"]/label</xpath>
+				<value>
+					<label>zenith spine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenIV"]/description</xpath>
+				<value>
+					<description>A spine made of pure Eternal Fabric, it can bear any weight and stress. The spine can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith spine</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith spine.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith spine.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenIV"]/label</xpath>
+				<value>
+					<label>zenith neural enchanter</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith neural enchanter</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenIV"]/label</xpath>
+				<value>
+					<label>zenith neural enchanter</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenIV"]/description</xpath>
+				<value>
+					<description>An infusion of the mind itself, the zenith neural enchantment expands one's mind beyond that of even transendant Archotechs, exposing the true nature of reality to one. It can not be removed without destroying the brain, unless a replacement neural enchanter is given.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith neural enchanter</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith neural enchanter.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenIV"]/label</xpath>
+				<value>
+					<label>zenith heart</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith heart</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith heart.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenIV"]/label</xpath>
+				<value>
+					<label>zenith heart</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenIV"]/description</xpath>
+				<value>
+					<description>A heart made of pure Eternal Fabric, there is literally no limit to how much it can circulate through the body, and is also able to control the flow of every last cell of blood, preventing bleeding entirely. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith heart</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith heart.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith heart.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenIV"]/label</xpath>
+				<value>
+					<label>zenith lung</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith lung</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith lung.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenIV"]/label</xpath>
+				<value>
+					<label>zenith lung</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenIV"]/description</xpath>
+				<value>
+					<description>A 'lung' of pure Eternal Fabric that draws air from the surrounding atmosphere, instead of requiring to breathe it in first. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith lung</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith lung.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith lung.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenIV"]/label</xpath>
+				<value>
+					<label>zenith kidney</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith kidney</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith kidney.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenIV"]/label</xpath>
+				<value>
+					<label>zenith kidney</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenIV"]/description</xpath>
+				<value>
+					<description>A kidney made of pure Eternal Fabric that filters the entire blood stream all at once, creating a truly pure body. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenIV"]/label</xpath>
+				<value>
+					<label>install stellar kidney</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith kidney.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith kidney.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenIV"]/label</xpath>
+				<value>
+					<label>zenith liver</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith liver</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith liver.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenIV"]/label</xpath>
+				<value>
+					<label>zenith liver</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenIV"]/description</xpath>
+				<value>
+					<description>A liver made of pure Eternal Fabric, it scours the entire body at every instant to keep it at its absolute zenith. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith liver</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith liver.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith liver.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenIV"]/label</xpath>
+				<value>
+					<label>zenith digestive system</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenIV"]/labelNoun</xpath>
+				<value>
+					<labelNoun>a zenith digestive system</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenIV"]/description</xpath>
+				<value>
+					<description>An installed zenith digestive system.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenIV"]/label</xpath>
+				<value>
+					<label>zenith digestive system</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenIV"]/description</xpath>
+				<value>
+					<description>A whole digestive system made of pure Eternal Fabric, able to extract every last nutrient out of food perfectly. It is also, of course, completely immune to any food-borne illness. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenIV"]/label</xpath>
+				<value>
+					<label>install zenith digestive system</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenIV"]/description</xpath>
+				<value>
+					<description>Install a zenith digestive system.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenIV"]/jobString</xpath>
+				<value>
+					<jobString>Installing zenith digestive system.</jobString>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Fracture of Greatness -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_I"]/label</xpath>
+				<value>
+					<label>Fracture of Greatness (Abyssal Component #1/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_I"]/description</xpath>
+				<value>
+					<description>A mysterious glass-like shard composed of unknown make with a glowing red material infused within, flowing with immense energy.\n\nIt seems to react to an electric current, growing more bright as energy is pumped through it.\n\n...Though it seems that it can consume quite a bit of power in the end.\n\nOn one side of the crystal the following is engraved in an unknown language: "Thy greatest and final mistake was ending us, for we, the Timeless, are everaglow."</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_I"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Forbidden Knowledge -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_II"]/label</xpath>
+				<value>
+					<label>Forbidden Knowledge (Abyssal Component #2/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_II"]/description</xpath>
+				<value>
+					<description>A mysterious floppy-disk-like device made purely of Abyssal Alloy, with traces of something else within.\n\nIt's almost definitely meant to store some kind of data, but exactly what is as of yet unknown.\n\nOn the back of the drive the following is written in an unknown language: "We held the truth; that we were the true masters of all reality. We could forge matter out of pure nothingness, something even greater than Baryonic, something greater than Abyssal.\n\nIt was the Eternal Fabric."</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_II"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Beckoning of Desire -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_III"]/label</xpath>
+				<value>
+					<label>Beckoning of Desire (Abyssal Component #3/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_III"]/description</xpath>
+				<value>
+					<description>A curious little motor-like device made mostly out of Abyssal Alloy, with some Abyssal Matter sloshing about within.\n\nWhen powered, it seems to tug psychic phenomina along with it, creating a very brief confusing perspective for the psychically sensitive and gifted, though others get adjusted too quickly to weaponize.\n\nIt seems to be trying to tug on something else, too, but there isn't enough of whatever it's trying to influence.\n\nOn the side of the motor the following is written in another language: "We bend to the will of the Voidholder, and so do the Stars."</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_III"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,0,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Astral Refuter -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_IV"]/label</xpath>
+				<value>
+					<label>Astral Refuter (Abyssal Component #4/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_IV"]/description</xpath>
+				<value>
+					<description>A strange circuit-board-like device made of Abyssal Alloy and what appears to be solidified Abyssal Matter, said Abyssal Matter acting as the wiring for the device.\n\nIgnoring the fact that Abyssal Matter should not be stable enough to be a solid for more than a brief moment, and that Abyssal Matter should be a terrible conductor, it's truly a work of wonders.\n\nIt seems to be soldered in a way that its components can't be removed, except for one slot that looks like a data port of some kind. It's too tough to remove anything, either.\n\nOn the bottom of the board the following is engraved in an unknown language: "Programmed into our minds is the truth that the Voidholder is absolute. His and only His reign can be accepted by the populace, for He acts in the name of the First, the one who united our kin and let us escape our fate of infighting, who showed us unity true and fast.\n\nLong be the Voidholder, and may He reign long."</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_IV"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,0,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Amplifier of Ambition -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_V"]/label</xpath>
+				<value>
+					<label>Amplifier of Ambition (Abyssal Component #5/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_V"]/description</xpath>
+				<value>
+					<description>A strange device unlike any other, that energises whatever can pass through it. It instantly vaporises water, makes Abyssal Matter instantly dissolve into nothingness, and make Abyssal Alloy inert, making it nothing more than an expensive, dilute Plasteel.\n\nIts slot seems to be shaped very specifically, set to fit a prism-shaped object.\n\nEngraved on a non-important part of the object the following is written in an unknown language: "The Embers of Eternity still glow hot, when all the pieces are put together, when the People are there to keep them lit."</description>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_V"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

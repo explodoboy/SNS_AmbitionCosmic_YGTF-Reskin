@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen4 Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_SNS_Medicine_GenIV"]/description</xpath>
+				<value>
+					<description>Pattern 25 of the Curse of Eternity from nothingness.</description>
+				</value>
+			</li>
+			
+			<!-- Eternal Fabric -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_StableMatter"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Stalwart Fabric.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

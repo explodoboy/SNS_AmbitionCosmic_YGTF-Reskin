@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyHelmet"]/label</xpath>
+				<value>
+					<label>Voidsteel Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyHelmet"]/description</xpath>
+				<value>
+					<description>A feather-light combat helmet with a complex design, made of pure Voidsteel. Not very effective against blunt weaponry.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyPlateArmor"]/label</xpath>
+				<value>
+					<label>Voidsteel Plate Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyPlateArmor"]/description</xpath>
+				<value>
+					<description>Overlapping solid plates of Voidsteel armor covering the entire body from neck to feet. Unlike standard Plate Armor, however, this does not restrict movement in the slightest and is superior to the likes of Power Armor.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

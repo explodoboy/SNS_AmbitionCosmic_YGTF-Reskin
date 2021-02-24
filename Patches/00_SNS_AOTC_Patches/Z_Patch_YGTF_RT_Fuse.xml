@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- This file is named the way it is so that RimWorld will hopefully run it last, so that it can overwrite any other patches done. -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RT Fuse</li>
+		<li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<!-- Update descriptions to mention circuit breakers -->
+			<li Class="PatchOperationReplace"> <!-- This operation will COMPLETELY REPLACE whatever you put in xpath. -->
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_I"]/description</xpath> <!-- In this case, <description> will be TOTALLY OVERWRITTEN. You must put a wholly new <description> tag below. -->
+				<value> <!-- Within the <value> tag is what you're replacing the old description with. -->
+					<description>Incredibly safe, the Abyssal Battery Gen 1 is capable of storing incredible amounts of energy at the absolute highest possible efficiency. Incredibly safe, the Abyssal Battery will never combust or explode even when damaged. It is also effectively immune to power surges, as it will simply discharge itself when a short circuit is detected.\n\nStats:\n1: Stores 10000 Watts at 100% efficiency\n2: Will dissipate 10000 Watts during short circuit (Zzztt...) events.</description>
+				</value> <!-- This is the end of the operation. The next two operations are pretty much copy-paste. -->
+			</li>
+			
+			<!-- Update descriptions to mention circuit breakers -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_II"]/description</xpath>
+				<value>
+					<description>Incredibly safe, the Abyssal Battery Gen 2 is the perfect battery, able to store seemingly endless amounts of energy at the highest possible efficiency. The Generation II Abyssal Battery will never combust or explode regardless of damage or condition. It is also effectively immune to power surges, as it will simply discharge itself when a short circuit is detected.\n\nStats:\n1: Stores 100K Watts at 100% efficiency\n2: Will dissipate 100K Watts during short circuit (Zzztt...) events.</description>
+				</value>
+			</li>
+			
+			<!-- Update descriptions to mention circuit breakers -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_III"]/description</xpath>
+				<value>
+					<description>The Abyssal Battery Generation Omega is the ultimate battery, storing vastly more energy than its precessor at the highest possible efficiency.\n\nThe Generation Omega Abyssal Battery will never combust or explode no matter what, and is also effectively immune to power surges, as it will simply discharge itself when a short circuit is detected.\n\nStats:\n1: Stores 1M Watts at 100% efficiency\n2: Will dissipate 1M Watts during short circuit (Zzztt...) events.</description>
+				</value>
+			</li>
+		</operations> <!-- This is the end of the operations sequence from the PatchOperationSequence operation; it's done working here. -->
+	</match> <!-- This is the end of the definition of the PatchOperationSequence operation. I think you can place more operations here, but I've not tested that out. You can try it, but I can give no promises to if it'll work or not. -->
+</Operation> <!-- This is the end of the PatchOperationFindMod operation. You can now put more operations down if you want. -->
+
+</Patch> <!-- This is the end of the file. YOU SHOULD NOT PUT ANYTHING PAST HERE IF IT'S NOT COMMENTED. -->

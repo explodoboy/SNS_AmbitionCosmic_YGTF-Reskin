@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CosmicMatterTrade_single"]/description</xpath>
+						<value>
+							<description>Sell any amount of Abyssal Matter for Silver.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CosmicMatterTrade_hundred"]/description</xpath>
+						<value>
+							<description>Sell a hundred Abyssal Matter in a single transaction.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CosmicMatterTrade_milestone"]/description</xpath>
+						<value>
+							<description>Sell ten-thousand (10,000) Abyssal Matter total. Does not have to be done all in one transaction.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

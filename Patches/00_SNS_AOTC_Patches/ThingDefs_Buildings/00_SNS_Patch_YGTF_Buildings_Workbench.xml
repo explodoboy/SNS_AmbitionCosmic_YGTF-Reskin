@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Cosmic Forge -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Unobtainer"]/label</xpath>
+				<value>
+					<label>Abyssal Forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Unobtainer"]/description</xpath>
+				<value>
+					<description>The Abyssal Forge collects Abyssal Matter from the Eternal Planes without input, and then can weave it into a Plasteel and Gold catalyst in the form of Voidsteel, along with providing other ways to refine Voidsteel.\n\nStats: Consumes 30K Watts.</description>
+				</value>
+			</li>
+			<!-- glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Unobtainer"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Atomic Fabricator -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Constructor"]/label</xpath>
+				<value>
+					<label>Atomic Fabricator</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Constructor"]/description</xpath>
+				<value>
+					<description>The Atomic Fabricator is able to assemble many items from pure Abyssal Matter with high speed and ease. Such a wonderful device.\n\n\n\nStats: Consumes 10K Watts.</description>
+				</value>
+			</li>
+			<!-- glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Constructor"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Manipulator -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicDrawer"]/label</xpath>
+				<value>
+					<label>Abyssal Manipulator</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicDrawer"]/description</xpath>
+				<value>
+					<description>The Abyssal Manipulator draws pure Abyssal Matter from the Eternal Plane, trading an vast amount of energy and time for either stable, well-contained Abyssal Matter or the creation of a highly pure Abyssal Alloy.\n\nStats: Consumes 100K Watts.</description>
+				</value>
+			</li>
+			<!-- glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicDrawer"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Call -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicCall"]/label</xpath>
+				<value>
+					<label>R.I.F.T. Fabricator</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicCall"]/description</xpath>
+				<value>
+					<description>The ultimate of atomic fabrication technology, the R.I.F.T. Fabricator is the flawless combination of an Abyssal Manipulator and an Atomic Fabricator, able to both draw Cosmic Matter and fabricate matter, and at a much greater speed than its predecessor.\n\nIts production speed can be further boosted by buildable modules.\n\nStats: Consumes 1.5M Watts.</description>
+				</value>
+			</li>
+			<!-- glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicCall"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Utopia Device -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_PinnacleFabricator"]/label</xpath>
+				<value>
+					<label>The Dystopia Device</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_PinnacleFabricator"]/description</xpath>
+				<value>
+					<description>This device is perfection itself, a fabricator imbued with Eternal Fabric. The device fabricates things out of pure Eternal Fabric rather than from Abyssal Matter, allowing things to be constructed at a pace never seen before.\n\nNow you truly have a Dytopia--for you have all the power, and nobody else does.\n\nThis item is rediculously powerful and not balanced in the slightest, nor will it ever be. This is your reward for achieving the Pinnacle of Creation. Good luck.\n\nStats: Consumes 150K Watts.</description>
+				</value>
+			</li>
+			<!-- glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_PinnacleFabricator"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(255,0,0,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Gen1 Bionic Crafting Station -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenI"]/label</xpath>
+				<value>
+					<label>entropic bionic forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenI"]/description</xpath>
+				<value>
+					<description>A high-precision station where Generation-1 Entropic bionics are made.\n\nStats: Consumes 5K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Bionic Crafting Station -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/label</xpath>
+				<value>
+					<label>abyssal bionic forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/description</xpath>
+				<value>
+					<description>A high-precision station where Generation-2 Abyssal bionics are made.\n\nStats: Consumes 5K Watts.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

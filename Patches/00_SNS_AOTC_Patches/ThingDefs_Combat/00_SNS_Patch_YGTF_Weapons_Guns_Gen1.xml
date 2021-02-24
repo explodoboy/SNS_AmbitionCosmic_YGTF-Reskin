@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen1 pistol -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>entropic pistol projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenI"]/label</xpath>
+				<value>
+					<label>entropic pistol</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenI"]/description</xpath>
+				<value>
+					<description>An advanced pistol that shoots shoots plasma out of its barrel at high velocities. Its recoil is negligible and its accuracy is good compared to other pistols.\n\nThe entropic pistol is heavily used by ultra-rich Glitterworld military personnel, and is a common infantry weapon for Abyssal Empires.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 rifle -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>entropic rifle bullet</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenI"]/label</xpath>
+				<value>
+					<label>entropic rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenI"]/description</xpath>
+				<value>
+					<description>A fully automatic rifle that propels plasma at high velocities, without producing any recoil whatsoever. Its plasma is the weakest of entropic weapons, but its firerate is more than enough to compensate.\n\nThe entropic rifle is heavily used by ultra-rich Glitterworld military personnel, and is a common infantry weapon for Abyssal Empires.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 shotgun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>entropic shotgun projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenI"]/label</xpath>
+				<value>
+					<label>entropic shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced shotgun that fires a devastating clump of high-energy plasma projectiles that excel at destroying armor. While its range is unarguably terrible (as to be expected from a shotgun), its power and armor-shattering properties are more than enough compensation.\n\nThe stellar shotgun is heavily used by ultra-rich Glitterworld military personnel, and is a common infantry weapon for Abyssal Empires, especially in urban environments.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 sniper -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>entropic sniper bullet</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenI"]/label</xpath>
+				<value>
+					<label>entropic sniper</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced sniper that fires devastating high-energy plasma projectiles powerful enough to blow off limbs with singular shots, and still have enough energy left to blow off another. While it takes a while to charge and aim, it often can get the job done in just one shot.\n\nThe Stellar sniper is heavily used by ultra-rich Glitterworld military personnel, and is commonly used by low-class military snipers for Abyssal Empires.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

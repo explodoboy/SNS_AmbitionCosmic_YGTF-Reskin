@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Starsteel tile -->
+			<!-- Thing name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_UnobtainiumTile"]/label</xpath>
+				<value>
+					<label>voidsteel tile</label>
+				</value>
+			</li>
+			<!-- Thing description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_UnobtainiumTile"]/description</xpath>
+				<value>
+					<description>Tiles made out of a thin sheet of Voidsteel, atop a plasteel foundation. Voidsteel Tiles have special cleanliness-enhancing properties, while also looking pretty. Extra-clean rooms improve outcomes in hospitals, research labs, and kitchens. This tile is very slow to build.\n\nThis flooring is considered worthy of Royalty. [This floor satisfies pawns with a Royal title from RimWorld Royalty DLC]</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic tile -->
+			<!-- Thing name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_CosmicMatterTile"]/label</xpath>
+				<value>
+					<label>abyssal tile</label>
+				</value>
+			</li>
+			<!-- Thing description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_CosmicMatterTile"]/description</xpath>
+				<value>
+					<description>Tiles made out of Abyssal Alloy, infused with liberal amounts of Abyssal Matter. Abyssal Matter Tiles have special cleanliness-enhancing properties beyond that of other materials, while alsnm looking absolutely stunning. Extra-clean rooms improve outcomes in hospitals, research labs, and kitchens. This tile is very, very slow to build.\n\nThis flooring is considered worthy of Royalty, perhaps enough to even impress an Emperor. [This floor satisfies pawns with a Royal title from RimWorld Royalty DLC]</description>
+				</value>
+			</li>
+			
+			<!-- Eternium tile -->
+			<!-- Thing name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_EterniumTile"]/label</xpath>
+				<value>
+					<label>eternal fabric tile</label>
+				</value>
+			</li>
+			<!-- Thing description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_EterniumTile"]/description</xpath>
+				<value>
+					<description>Decadent tiles made out of Abyssal Alloy and Eternium, infused with copious amounts of Abyssal Matter. Eternium Tiles have special cleanliness-enhancing properties superior than all other known materials, while looking like art pieces by themselves. Extra-clean rooms improve outcomes in hospitals, research labs, and kitchens. This tile is extremely slow to build.\n\nThis flooring is considered beyond worthy of Royalty. Some would even argue that the question should be if Royalty are worthy of the flooring! [This floor satisfies pawns with a Royal title from RimWorld Royalty DLC]</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

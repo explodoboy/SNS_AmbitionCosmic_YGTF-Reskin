@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Sniper"]/label</xpath>
+				<value>
+					<label>catalyst turret projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Sniper"]/label</xpath>
+				<value>
+					<label>catalyst turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Sniper"]/description</xpath>
+				<value>
+					<description>The gun of a catalyst turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Sniper"]/label</xpath>
+				<value>
+					<label>catalyst turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Sniper"]/description</xpath>
+				<value>
+					<description>An automatic turret fueled by the natural runoff energy of Abyssal Catalyst Cells, said cells protected by extremely thick plates of Abyssal Alloy to ensure that it cannot explode even when punctured. Incredibly safe (disclaimer 1: to the owner, not the enemy) (disclaimer 2: absolutely not safe if something destroys the CC cells after building is destroyed) overall, it can be deployed and forgotten about since it will never break down or need to be reloaded. The only downside is its slow firerate and low accuracy at very close ranges.\n\nNOTE: If something destroys the turret AND Catalyst Cell fuel in one go, then a massive explosion is likely to follow unless it's contained in a very strong-walled room.\nSeriously, the cell can kill a CHARON suit user with just 3 tiles occupied and you won't like that. (either full stack or a single item--beware of spreading it over a large area in a massive vault)</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionSniper"]/label</xpath>
+				<value>
+					<label>overdrive catalyst turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionSniper"]/description</xpath>
+				<value>
+					<description>The gun of an overdrive catalyst turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionSniper"]/label</xpath>
+				<value>
+					<label>overdrive catalyst turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionSniper"]/description</xpath>
+				<value>
+					<description>An automatic turret fueled by the extreme power of Abyssal Catalyst Cells, said cells protected by extremely thick plates of Abyssal Alloy to ensure that it cannot explode when punctured. The turret, instead of being passively powered by the Catalyst Cells directly use them as ammunition. This means that the turrets will occasionally have to be resupplied.\n\nThe turret can be manually targeted to either supress or focus down an area.\n\nNOTE: If something destroys the turret AND Catalyst Cell fuel in one go, then a massive explosion is likely to follow unless it's contained in a very strong-walled room.\nSeriously, the cell can kill a CHARON suit user with just 3 tiles occupied and you won't like that. (either full stack or a single item--beware of spreading it over a large area in a massive vault)</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

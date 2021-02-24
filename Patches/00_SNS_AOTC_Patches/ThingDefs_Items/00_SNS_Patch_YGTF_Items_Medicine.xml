@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen1 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenI"]/label</xpath>
+				<value>
+					<label>Entropic medicine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenI"]/description</xpath>
+				<value>
+					<description>A kit of industrial-era medical supplies, improved with Voidsteel and better preparation methods, including highly sterile equipment beyond that of even some lower-grade Glitterworld medicine.\n\nIt is on-par with Glitterworld medicine in almost every way except for cost.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenII"]/label</xpath>
+				<value>
+					 <label>Abyssal medicine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenII"]/description</xpath>
+				<value>
+					<description>A kit made from either Glitterworld-grade medicine or Entropic medicine, improved further with Abyssal Alloy and Abyssal Matter. It contains generalist Abyssal-Matter-powered medical nanites able to do many tasks including causing anesthesia alongside having extremely sharp, precise, and sterile multi-use tools, including Abyssal-Matter-based sterilisation tools.\n\nIt is superior to Glitterworld and Entropic medicine in every way, excluding cost.\n\nIf not produced here, then it is highly likely that it was manufactured on a distant hyper-advanced Advanced Glitterworld.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic medicine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenIII"]/description</xpath>
+				<value>
+					<description>A kit of extremely advanced medical supplies, originally created by a hyperadvanced now-long-dead-precursor civilisation an untold amount of time ago. It contains extremely advanced generalist medical nanites able to do almost any task (including causing the effects of many highly specific drugs) and a collection of equally advanced multitools that can change their own properties and shape at will, said tools are also incredibly precise and sharp, beyond that of anything else seen. It is truly the ultimate medicine.\n\nIf not produced here, then this medicine likely originates directly from the original civilisation who discovered Abyssal Matter and then spread across galaxy, somehow finding itself in your posession.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

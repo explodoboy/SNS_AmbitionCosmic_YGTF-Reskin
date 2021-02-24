@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_GenI"]/label</xpath>
+				<value>
+					<label>Entropic Analyzer</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_GenI"]/description</xpath>
+				<value>
+					<description>A highly intricate device that draws trace amounts of Abyssal energy, allowing for direct experimentation with low-purity Abyssal Matter.\n\nStats: Requires 5K Watts\n\n Provides 25% research speed boost to nearby research benches. Does not stack with other Stellar Analyzers.\nEnables researching the [The Metal of the Void] technology and later Generation 1 'Entropic' technologies.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_GenII"]/label</xpath>
+				<value>
+					<label>Abyssal Analyzer</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_GenII"]/description</xpath>
+				<value>
+					<description>An advanced device that draws trace amounts of high-purity Abyssal Matter, allowing for direct experimentation with Abyssal Matter.\n\nStats: Requires 25K Watts\n\n Provides 75% research speed boost to nearby research benches. Maximum connections per research bench: 2.\nEnables researching the [Chaos Theory] technology and later Generation 2 'Abyssal' technologies.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_GenIII"]/label</xpath>
+				<value>
+					<label>The Call of the Abyss</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_GenIII"]/description</xpath>
+				<value>
+					<description>The culmination of all ambition, dreams and desire, the Call of the Cosmos manifests highly volatile Abyssal Matter passively. While the manifested Abyssal Matter is too unstable for practical use, its volatile nature allows for a wholly new outlook towards Abyssal-Matter-based technology.\n\nSecondarily, there are various files loaded onto the Call of the Abyss which may open a whole new generation of arcane technologies.\n\nStats: Requires 100K Watts\n\n Provides 250% research speed boost to nearby research benches. Maximum connections per research bench: 2.\nEnables researching the [The Great Unknown] technology.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unlocker_POC"]/description</xpath>
+				<value>
+					<description>An arcane super-computer that uses the very fabric of reality as its processing unit. The amount of data it is able to process is unimaginagble. Just its very creation opens the gateway to countless breakthroughs.\n\nStats: Requires 1.5M Watts\n\nProvides 1000% research speed boost to nearby research benches. Does not stack with other Pattern De-Abstraction Devices.\nUnlocks the [The First Cycle] technology.</description>
+				</value>
+			</li>
+
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

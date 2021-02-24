@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+		
+			<!-- Simple Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MealSimple"]/description</xpath>
+				<value>
+					<description>Pattern Simple Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Fine Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MealFine"]/description</xpath>
+				<value>
+					<description>Pattern Fine Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Lavish Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MealLavish"]/description</xpath>
+				<value>
+					<description>Pattern Lavish Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gen1 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MealGenI"]/description</xpath>
+				<value>
+					<description>Pattern Luxurious Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gen1 Nutrient Bar -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_NutrientBarGenI"]/description</xpath>
+				<value>
+					<description>Pattern Nutrient Bars from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gen2 Meal -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MealGenII"]/description</xpath>
+				<value>
+					<description>Pattern Luxurious Meals from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gen2 Nutrient Bar -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_NutrientBarGenII"]/description</xpath>
+				<value>
+					<description>Pattern Advanced Nutrient Bars from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Kibble -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Kibble"]/description</xpath>
+				<value>
+					<description>Pattern Kibble from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Herbal Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_HerbalMedicine"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Herbal Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Industrial Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Medicine"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Industrial-Grade Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Glitterworld Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_GlitterworldMedicine"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Glitterworld Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Stellar Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Medicine_GenI"]/label</xpath>
+				<value>
+					<label>Pattern Entropic Medicine</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Medicine_GenI"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Entropic Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Medicine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Medicine_GenII"]/label</xpath>
+				<value>
+					<label>Pattern Abyssal Medicine</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Medicine_GenII"]/description</xpath>
+				<value>
+					<description>Pattern five packages of Abyssal Medicine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Neutroamine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Neutroamine"]/description</xpath>
+				<value>
+					<description>Pattern five units of Neutroamine from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Penoxycyline -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Penoxycyline"]/description</xpath>
+				<value>
+					<description>Pattern a small container of 50 Penoxycyline pills from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Ambrosia -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Ambrosia"]/description</xpath>
+				<value>
+					<description>Pattern a sizeable pile of 25 Ambrosia fruits from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Luciferium -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Luciferium"]/description</xpath>
+				<value>
+					<description>Pattern ten Luciferium pills pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Silver -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Silver"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 500 Silver pieces from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Gold -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Gold"]/description</xpath>
+				<value>
+					<description>Pattern a pile of 100 Gold pieces from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Steel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Steel"]/description</xpath>
+				<value>
+					<description>Pattern a collection of 75 Steel ingots from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Plasteel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Plasteel"]/description</xpath>
+				<value>
+					<description>Pattern 75 small sheets of Plasteel from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Uranium -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Uranium"]/description</xpath>
+				<value>
+					<description>Pattern 75 pieces of self-contained Uranium from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Granite Blocks -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_BlocksGranite"]/description</xpath>
+				<value>
+					<description>Pattern a neat stack of 75 Granite blocks from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Chemfuel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Chemfuel"]/description</xpath>
+				<value>
+					<description>Pattern a full, large container filled with 150 units of Chemfuel from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_ComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Pattern a pile of five generalist basic Components from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Advanced Component -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_AdvancedComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Pattern a pile of five generalist advanced Components from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Mech Heal Serum -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MechSerumHealer"]/description</xpath>
+				<value>
+					<description>Pattern a single injector of Mech Heal Serum from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			<!-- Mech Resurrector Serum -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MechSerumResurrector"]/description</xpath>
+				<value>
+					<description>Pattern a single injector of Mech Resurrector Serum from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Voidsteel label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Unobtainium"]/label</xpath>
+				<value>
+					<label>Pattern Voidsteel</label>
+				</value>
+			</li>
+			<!-- Voidsteel descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Unobtainium"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Voidsteel from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Voidsteel Wool label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Unobtainium_Fiber"]/label</xpath>
+				<value>
+					<label>Pattern Voidsteel 'Wool'</label>
+				</value>
+			</li>
+			<!-- Voidsteel Wool descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Unobtainium_Fiber"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Voidsteel 'Wool' from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Alloy label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_CosmicAlloy"]/label</xpath>
+				<value>
+					<label>Pattern Abyssal Alloy</label>
+				</value>
+			</li>
+			<!-- Abyssal Alloy descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_CosmicAlloy"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Abyssal Alloy from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Alloy Weave label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_CosmicAlloyWeave"]/label</xpath>
+				<value>
+					<label>Pattern Abyssal Weave</label>
+				</value>
+			</li>
+			<!-- Abyssal Alloy Weave descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_CosmicAlloyWeave"]/description</xpath>
+				<value>
+					<description>Pattern 75 units of Abyssal Weave from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Catalyst Fuel Cells -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_FuelCell"]/description</xpath>
+				<value>
+					<description>Pattern a stack of Abyssal Fuel Catalyst Cells from pure Abyssal Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Abyssal Matter label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_CosmicMatter"]/label</xpath>
+				<value>
+					<label>Summon Abyssal Matter</label>
+				</value>
+			</li>
+			<!-- Abyssal Matter descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_CosmicMatter"]/description</xpath>
+				<value>
+					<description>Draw Abyssal Matter directly from the Eternal Plane.</description>
+				</value>
+			</li>
+			
+			<!-- Eternal Fabric label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Eternium"]/label</xpath>
+				<value>
+					<label>Draw Eternal Fabric</label>
+				</value>
+			</li>
+			<!-- Eternal Fabric descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_Eternium"]/description</xpath>
+				<value>
+					<description>Draw Eternal Fabric directly from the Eternal Plane. The process is incredibly slow, and a great time must be invested into gathering it.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

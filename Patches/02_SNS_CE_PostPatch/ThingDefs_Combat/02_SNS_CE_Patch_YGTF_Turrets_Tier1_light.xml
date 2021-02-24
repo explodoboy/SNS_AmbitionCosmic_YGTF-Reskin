@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_LightCosmic"]/label</xpath>
+						<value>
+							<label>light entropic turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_LightCosmic"]/description</xpath>
+						<value>
+							<description>The gun of a light entropic turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_LightCosmic"]/label</xpath>
+						<value>
+							<label>light entropic turret projectile</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_LightCosmic"]/label</xpath>
+						<value>
+							<label>light entropic turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_LightCosmic"]/description</xpath>
+						<value>
+							<description>A portable automatic turret made of durable Voidsteel and Plasteel. It must be occasionally resupplied with Generation-1 weapon charge.\n\nMax Clip Size: 125 Projectiles</description>
+						</value>
+					</li>
+					
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionLightCosmic"]/label</xpath>
+						<value>
+							<label>perdition light entropic turret gun</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionLightCosmic"]/description</xpath>
+						<value>
+							<description>The gun of a perdition light entropic turret.</description>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionLightCosmic"]/label</xpath>
+						<value>
+							<label>perdition light entropic turret</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionLightCosmic"]/description</xpath>
+						<value>
+							<description>A portable automatic turret made of durable Voidsteel and Plasteel. It must be occasionally resupplied with Generation-1 weapon charge.\n\nThis variant does not have a burst nor a cooldown between said bursts. Instead, it constantly fires at a steady pace until it runs out of ammo.\n\nMax Clip Size: 125 Projectiles</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

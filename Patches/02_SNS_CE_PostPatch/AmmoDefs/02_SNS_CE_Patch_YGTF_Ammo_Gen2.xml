@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Pistol"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Rifle"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Shotgun"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_SNS_Ammo_GenII_Sniper"]/label</xpath>
+						<value>
+							<label>abyssal weapon charge</label>
+						</value>
+					</li>
+
+					<!-- ammo item -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenII"]/label</xpath>
+						<value>
+							<label>generation 2 abyssal weapon charge</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Ammo_GenII"]/description</xpath>
+						<value>
+							<description>A capacitor cell filled with chaotic, unfiltered, and slightly unstable Abyssal Matter, designed for Generation-2 Abyssal weaponry. While it is cheap and fast to make, the Cosmic Matter within cannot be extracted once the capacitor has been sealed due to the unstable nature of the contained Abyssal Matter.\n\nStack limit: 5,000</description>
+						</value>
+					</li>
+
+					<!-- recipe -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenII"]/label</xpath>
+						<value>
+							<label>make generation 2 abyssal weapon charge x50</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/RecipeDef[defName="MakeSNS_Ammo_GenII"]/description</xpath>
+						<value>
+							<description>Create 50 shots worth of second-generation abyssal weapon charge in a convenient capacitor.</description>
+						</value>
+					</li>
+
+					<!-- pistol projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenII_Pistol"]/label</xpath>
+						<value>
+							<label>abyssal pistol projectile</label>
+						</value>
+					</li>
+
+					<!-- rifle projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenII_Rifle"]/label</xpath>
+						<value>
+							<label>abyssal rifle projectile</label>
+						</value>
+					</li>
+
+					<!-- shotgun projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenII_Shotgun"]/label</xpath>
+						<value>
+							<label>abyssal shotgun projectile</label>
+						</value>
+					</li>
+
+					<!-- sniper projectile -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Bullet_GenII_Sniper"]/label</xpath>
+						<value>
+							<label>abyssal sniper projectile</label>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

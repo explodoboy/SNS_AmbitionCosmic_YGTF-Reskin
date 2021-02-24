@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Meal Gen4 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenIV"]/label</xpath>
+				<value>
+					<label>Hedonist's Dream</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenIV"]/description</xpath>
+				<value>
+					<description>Possibly the food Gods think of like when we mortals think about Ambrosia, this 'meal' is made almost entirely of pure Eternal Fabric, able to sustain the body perfectly no matter what one needs to sustain their body. It will never spoil or deteriorate, and is a status symbol of just how far we have come.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

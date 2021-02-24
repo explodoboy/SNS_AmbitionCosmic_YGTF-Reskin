@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_EXARCH"]/label</xpath>
+				<value>
+					<label>EXARCH Projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EXARCH"]/label</xpath>
+				<value>
+					<label>automated EXARCH</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EXARCH"]/description</xpath>
+				<value>
+					<description>The gun of an automated EXARCH.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EXARCH"]/label</xpath>
+				<value>
+					<label>Automated EXARCH</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EXARCH"]/description</xpath>
+				<value>
+					<description>A turret powered by the ultimate weapon, the Automated EXARCH is a rapidly firing superweapon able to bring down entire colonies by itself.\n\nIt is smart to keep it away from the front lines and allow it to bombard the enemy from afar due to its tendency to absolutely obliterate whatever is caught in its explosion.\n\nAlso be aware that it is fully capable of obliterating itself if too many enemies get too close too many times, and even if it doesn't hit itself it will probably obliterate the general area where an enemy is at.\n\nThis turret still needs to be occasionally fueled by Eternal Fabric to continue running. One unit of Eternal Fabric gives the weapon five shots of fuel.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalEXARCH"]/label</xpath>
+				<value>
+					<label>eternal automated EXARCH gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalEXARCH"]/description</xpath>
+				<value>
+					<description>The gun of an automated EXARCH.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalEXARCH"]/label</xpath>
+				<value>
+					<label>Eternal Automated EXARCH</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalEXARCH"]/description</xpath>
+				<value>
+					<description>A turret powered by the ultimate weapon, the Automated EXARCH is a rapidly firing superweapon able to bring down entire colonies by itself.\n\nIt is smart to keep it away from the front lines and allow it to bombard the enemy from afar due to its tendency to absolutely obliterate whatever is caught in its explosion.\n\nAlso be aware that it is fully capable of obliterating itself if too many enemies get too close too many times, and even if it doesn't hit itself it will probably obliterate the general area where an enemy is at.\n\nThis turret will never break down or need to be refueled. Ever.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

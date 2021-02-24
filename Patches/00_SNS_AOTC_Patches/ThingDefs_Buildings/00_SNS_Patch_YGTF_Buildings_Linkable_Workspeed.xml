@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unobtainer_I"]/label</xpath>
+				<value>
+					<label>Secondary Abyssal Forge Mixer</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unobtainer_I"]/description</xpath>
+				<value>
+					<description>A module to the Abyssal Forge that allows the preparation of a later stage of Voidsteel production reducing required prep-work, or the rapid conversion of Voidsteel Wool with a secondary weaver.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_I"]/label</xpath>
+				<value>
+					<label>Dynamic Abyssal Matter Stabilizer</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_I"]/description</xpath>
+				<value>
+					<description>A module to the Abyssal Manipulator that automatically stabilizes Abyssal Matter during operation, allowing for both faster drawing of Abyssal Matter and crafting of various items at an increased pace without creating the risk of the Abyssal Matter destabilizing and thus ruining any active operations; people can work faster without risking losing product.\n\nStats: When directly adjacent to a Abyssal Manipulator, +50% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_II"]/label</xpath>
+				<value>
+					<label>Type-Theta Secondary Abyssal Matter Access Point</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_II"]/description</xpath>
+				<value>
+					<description>A module for both the Abyssal Manipulator and Atomic Fabricator that allows for the direct drawing and manipulation of a more stable form of Abyssal Matter, allowing for any connected machines to operate much, much faster than ever before.\n\nStats: When directly adjacent to an Abyssal Manipulator or Atomic Fabricator, +100% workspeed given to said buildings.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_III"]/label</xpath>
+				<value>
+					<label>Abyssal Matter Drawpoint Expander</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_III"]/description</xpath>
+				<value>
+					<description>A module for the Abyssal Manipulator that clears and further opens weakpoints in reality that Abyssal Matter flows through, increasing the density and stability of Abyssal Matter in the Abyssal Manipulator drastically, allowing for blazing-fast operations, especially when combined with other modules.\n\nStats: When directly adjacent to a Abyssal Manipulator, +250% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_I"]/label</xpath>
+				<value>
+					<label>R.I.F.T. Secondary Latchpoint</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_I"]/description</xpath>
+				<value>
+					<description>A module for the R.I.F.T. Fabricator that provides an additional, smaller entrypoint for Abyssal Matter and Eternal Fabric drawing and/or manipulation. Up to two modules can be attached to a singular R.I.F.T. Fabricator.\n\nStats: When directly adjacent to a R.I.F.T. Fabricator, +25% workspeed given to said building(s). Can link up to 2 at a time for a +50% total workspeed bonus.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_II"]/label</xpath>
+				<value>
+					<label>R.I.F.T. Beta-Injection System</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_II"]/description</xpath>
+				<value>
+					<description>A highly complicated module for the R.I.F.T. Fabricator that injects extremely unstable and common Type-Beta Abyssal Matter passively accumilated from passive drawing to agitate and allow easier collection of more favorable forms of Abyssal Matter and/or Eternal Fabric.\n\nStats: When directly adjacent to a R.I.F.T. Fabricator, +75% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_III"]/label</xpath>
+				<value>
+					<label>Type-Omega R.I.F.T. Drawpoint</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_III"]/description</xpath>
+				<value>
+					<description>An arcane module for the R.I.F.T. Fabricator that allows for the harvesting of Type-Omega Abyssal Matter, a form of Cosmic Matter that is verging on collapsing into Eternal Fabric. While unusable in its super-positioned state, it can be de-energised into a large amount of pure Type-Theta Abyssal Matter, or pushed towards collapsing into easily collectible Eternal Fabric, allowing for rapid collection of either.\n\nStats: When directly adjacent to a R.I.F.T. Fabricator, +250% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

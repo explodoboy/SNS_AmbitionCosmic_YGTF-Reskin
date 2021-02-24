@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+                    <!-- sleep -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Stim_II"]/description</xpath>
+						<value>
+                            <description>A nanite stimulant. STIM-VII reduces the user's need for sleep drastically by acting out the processes that cause restfulness in the brain, naturally reducing the need for sleep without risk of a crash. The effects last for two days. There is no risk of addiction from use of STIM-VII. Up to four doses can be taken at once for a maximum duration of eight days.\n\nSTIM-VII is seen occasionally on Glitterworlds, imported directly from an Abyssal Empire. STIM-VII sees heavy use in various militaries due to it being incredibly effective for reducing soldier sleep times and allowing one to stay awake for highly extended periods of time.</description>
+						</value>
+					</li>
+                    
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Stim_III"]/description</xpath>
+						<value>
+                            <description>An Eternal-Fabric-powered nanite stimulant. STIM-X completely removes the need for sleep for an entire day, alongside providing a major boost to working speed and focus. There is no risk of addiction for STIM-X. Multiple units of STIM-X can be taken for its effects to last longer, for up to twenty-five days.\n\nSTIM-X is exclusively used by Abyssal Empires and is almost never exported due to its low supply. Even high-class soldiers are unlikely to even touch STIM-X for their entire lives.</description>
+						</value>
+					</li>
+					
+                    <!-- mood -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Lux"]/description</xpath>
+						<value>
+                            <description>An amborisa-flavored beverage. Lux provides an initially powerful euphoria that lasts a few minutes, before fading to a moderate euphoria that lasts a few short hours before rapidly fading to a very mild form of euphoria that lasts approximately eighteen hours.\nUnlike anything it is derived from or similar to, it does not have a risk of addiction from consuming it or the risk of long-term damage from excessive use.\n\nIt is one of the most highly favored drinks of the Glitterworld middle-class, and an extremely common beverage for citizens of Abyssal Empires, being commonly enjoyed by even the lowest of classes. Many midworlds also enjoy lux, but almost always exlusively by the upper-class.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Hedonia"]/description</xpath>
+						<value>
+                            <description>A wonderful-tasting beverage filled with Eternal-Fabric-powered nanites. Hedonia provides a long-lasting and powerful euphoria that lasts for days, while not inhibiting thought or movement. There is no risk of addiction, tolerance, or damage from consuming the product.\n\nHedonia is rarely seen outside of Abyssal Empires, only seen occasionally in the hands of their middle-class and upper-class, for it cannot be produced anywhere; it is only attinable from scavenging on the fallen worlds of the Abyssal Precursors, and although there are countless amounts of it on those worlds, still-active security systems make extraction incredibly risky.</description>
+						</value>
+					</li>
+					
+                    <!-- Immune -->
+                    <!-- immune does not need patching; does not mention anything cosmic, eternium, or stable matter as of v2.6p2 (release date 12/13/2020) (this comment was made 12/10/2020) -->
+					
+                    <!-- Combat -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SNS_Drug_Combat_II"]/description</xpath>
+						<value>
+                            <description>A synthetic performance-enhancing drug cocktail. Accelerant blocks pain, increases movement speed, and improves the user's melee and shooting abilities.\n\nIt is heavily used by Abyssal Empire militaries.\n\nNOTE: This drug also gives the effects of Boost.</description>
+						</value>
+					</li>
+                    
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

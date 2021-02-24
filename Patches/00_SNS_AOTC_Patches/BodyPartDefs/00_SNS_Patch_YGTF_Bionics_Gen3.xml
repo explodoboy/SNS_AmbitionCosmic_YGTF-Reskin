@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- <Operation Class="PatchOperationFindMod"> -->
+    <!-- <mods> -->
+        <!-- <li>Science Never Stops: Ambition of the Cosmic</li> -->
+    <!-- </mods> -->
+	<Operation Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Base_BionicBodyPart_GenIII"]/graphicData/color</xpath>
+				<value>
+					<color>(170,0,0)</color>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediff_GenIII"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(255,0,0)</defaultLabelColor>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediffImplant_GenIII"]/defaultLabelColor</xpath>
+				<value>
+					<defaultLabelColor>(255,0,0)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic eye</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic eye</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic eye.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic eye</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane device made of Abyssal Alloy and Eternal Fabric. It is for nigh-on indestructable for most situations. It is able to percieve every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays, including those on the extreme ends, be it the most redshifted radio waves or the highest wavelength gamme rays. The eye is able to see with great precision more than twice as far as its Generation 2 predecessor.\n\nIts only downfall is that it does not look anything like a human eye on closer inspection, having an extremely obvious border between pupil, iris, and the remainder of the eye, not even considering the possibility a user can cause their irises to glow at will--and very brightly at that.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic eye</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic eye.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic eye.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic ear</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic ear</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic ear.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic ear</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane device made of Abyssal Alloy and Eternal Fabric. It is for nigh-on indestructable for most situations. It seems to almost be able to peer past space, listening in on something else in a way that allows nearly unlimited hearing range.\n\nIts only downfall is that it looks nothing like a human ear, even if one can replicate the shape, the metalic shine and enigmatic glow makes it obvious that it is not natural, though most don't mind it considering the absolutely beautiful nature of what it's made of.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic ear</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic ear.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic ear.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic nose</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic nose</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic nose.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic nose</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane nose made of Abyssal Alloy and Eternal Fabric, it bends the very fabric of all creation to draw in air. Nigh-indestructable and reliable, its only downfall is that it does not look natural at all.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic nose</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic nose.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic nose.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic jaw</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic jaw</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic jaw.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic jaw</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenIII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical jaw made of Eternal-Fabric-infused Abyssal Alloy. It is incredibly tough, able to withstand high-force impact even being dented, much less broken. Able to literally rip through Abyssal Alloy like paper and amplify the volume of one's own vocalisations through strange interactions with the psychic field, it is an exceptional eating and negotiation tool.\n\nIts only downfall is that it is obviously artifical, the metalic shine and enigmatic glow does not help either, though most don't mind it considering the generally beautiful nature of the metal.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic jaw</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic jaw.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic jaw.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic head shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic head shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic head shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic head shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenIII"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Eternal-Fabric-infused Abyssal Alloy armor for the head. While it doesn't provide any benefit over the natural body, it does make the head much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic head shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic head shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic head shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic neck shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic neck shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic neck shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic neck shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenIII"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Eternal-Fabric-infused Abyssal Alloy armor for the neck. While it doesn't provide any benefit over the natural body, it does make the neck much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic neck shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic neck shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic neck shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic torso shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic torso shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic torso shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenIII"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Eternal-Fabric-infused Abyssal Alloy armor for the torso. While it doesn't provide any benefit over the natural body, it does make the torso much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some tends to emerge from underneath the skin in ways that most consider to be asthetically pleasing enough to look over.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic torso shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic torso shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic torso shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic arm</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic arm</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic arm.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic arm</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane artifical arm made of high-strength Abyssal Alloy and Eternal Fabric. It is obscenely tough, able to withstand high-force impact without even a scratch. It is able to bend Abyssal Alloy all on its own with the precision that simply cannot even be comprehended.\n\nIts only downfall is that it is obviously artificial, and in fact looks very robotic in nature, though few actually mind the apperance due to the beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenIII"]/label</xpath>
+				<value>
+					<label>nstall enigmatic arm</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic arm.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic arm.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic leg</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic leg</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic leg.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic leg</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane artifical leg made of nigh-indestructable Abyssal Alloy and Eternal Fabric. It is able to allow its user to move as fast as a decent sports car.\n\nIts only downfall is that it is obviously artificial, and in fact looks very robotic in nature, though few actually mind the apperance due to the generally beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic leg</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic leg.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic leg.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic spine</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic spine</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic spine.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic spine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane artifical spine made of nigh-indestructable Abyssal Alloy and Eternal Fabric. It's extremely sturdy, able to handle unbelievable amounts of weight and general strain from various sources all at once.\n\nIts only downfall is that it is obviously artificial, and can't entirely be hidden beneath the skin, though few actually mind the apperance due to the absolutely beautiful nature of the metal it is made from.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic spine</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic spine.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic spine.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic neural enchanter</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic neural enchanter</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic neural enchanter</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenIII"]/description</xpath>
+				<value>
+					<description>A highly advanced brain 'implant' that covers the entirety of the brain and replaces some parts not related to personality and emotion, but this means that it cannot be removed without destruction of the brain or replacement devices. It is possible, however, to replace it with other neural enchanters.\n\nBeing made of Abyssal Alloy and Eternal Fabric, it is unbelievably durable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic neural enchanter</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic neural enchanter.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic heart</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic heart</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic heart.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic heart</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane device that circulates blood through the body without any moving parts, the natural properties of Eternium being used to create the perfect 'heart' that will never break down or need maintenence. It is also able to slow the flow of blood anywhere in the body to a crawl, to minimise bleeding rate.\n\nBeing made of Abyssal Alloy and Eternal Fabric, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic heart</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic heart.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic heart.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic lung</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic lung</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic lung.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic lung</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane device that does not actually require breathing. Instead, it literally teleports pure oxygen from surrounding air directly into the 'lungs', allowing a rate of oxygen transfer simply not possible otherwise.\n\nBeing made of Abyssal Alloy and Eternal Fabric, it is unbelievably durable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic lung</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenIII"]/description</xpath>
+				<value>
+					<description>Install a enigmatic lung.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic lung.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic kidney</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic kidney</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic kidney.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic kidney</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane blood filtration device that utilises reality manipulation (and more importantly, nanomachines) to filter the entire blood stream at once.\n\nBeing made of Abyssal Alloy and Eternal Fabric, it is incredibly durable, far more than the natural body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenIII"]/label</xpath>
+				<value>
+					<label>install stellar kidney</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic kidney.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic kidney.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic liver</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic liver</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic liver.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic liver</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane device that functions just like a liver, but without any errors whatsoever, alongside functioning far beyond the capabilities of a biological organ.\n\nBeing made of Abyssal Alloy and Eternal Fabric, it is unbelievably durable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic liver</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic liver.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic liver.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic digestive system</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenIII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an enigmatic digestive system</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenIII"]/description</xpath>
+				<value>
+					<description>An installed enigmatic digestive system.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenIII"]/label</xpath>
+				<value>
+					<label>enigmatic digestive system</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane device that replicates an entite digestive system in a singular device, converting food directly into pure nutrients. This, of course, also destroys any food-borne illnesses completely and utterly, removing the risk of food poisoning.\n\nBeing made of Abyssal Alloy and Eternal Fabric, it is unbelievably durable.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenIII"]/label</xpath>
+				<value>
+					<label>install enigmatic digestive system</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenIII"]/description</xpath>
+				<value>
+					<description>Install an enigmatic digestive system.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Installing enigmatic digestive system.</jobString>
+				</value>
+			</li>
+			
+		</operations>
+	<!-- </match> -->
+</Operation>
+
+</Patch>
