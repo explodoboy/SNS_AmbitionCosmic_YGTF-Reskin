@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<Operation Class="PatchOperationFindMod">
+<!--<Operation Class="PatchOperationFindMod">
     <mods>
         <li>Science Never Stops: Ambition of the Cosmic</li>
-    </mods>
-	<match Class="PatchOperationSequence"> 
+    </mods>-->
+	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!-- Pinnacle Fabricator jobstring. (Currently uneeded.) -->
 			<!-- li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_Base"]/jobString</xpath>
 				<value>
-					<jobString>Atomically Fabricating</jobString>
+					<jobString>Atomically Constructing</jobString>
 				</value>
 			</li -->
 			
@@ -55,13 +55,6 @@
 				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenIII"]/description</xpath>
 				<value>
 					<description>Pattern a stack of Luxurious Nutrient Bars from nothingness.</description>
-				</value>
-			</li>
-			<!-- Gen4 Meal -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenIII"]/description</xpath>
-				<value>
-					<description>Pattern a stack of Hedonist's Dream from nothingness.</description>
 				</value>
 			</li>
 			<!-- Kibble -->
@@ -282,14 +275,14 @@
 			
 			<!-- Abyssal Weave label -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicWeave"]/label</xpath>
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicAlloyWeave"]/label</xpath>
 				<value>
 					<label>Pattern Abyssal Weave</label>
 				</value>
 			</li>
 			<!-- Abyssal Weave descriptor -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicWeave"]/description</xpath>
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_CosmicAlloyWeave"]/description</xpath>
 				<value>
 					<description>Pattern 75 units of Abyssal Weave from nothingness.</description>
 				</value>
@@ -311,7 +304,7 @@
 				</value>
 			</li>
 		</operations>
-	</match>
-</Operation>
+	</Operation>
+<!--</Operation>-->
 
 </Patch>

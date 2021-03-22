@@ -36,13 +36,6 @@
 					</li>
 
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Telescope_GenIII"]/description</xpath>
-						<value>
-							<description>Construct a stellar observation device.</description>
-						</value>
-					</li>
-
-					<li Class="PatchOperationReplace">
 						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Reactor_GenI"]/description</xpath>
 						<value>
 							<description>Construct an Abyssal Reactor Generation 1</description>

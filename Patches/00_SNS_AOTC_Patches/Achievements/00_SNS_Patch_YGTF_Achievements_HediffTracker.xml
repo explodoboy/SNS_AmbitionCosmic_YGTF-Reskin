@@ -28,54 +28,6 @@
 						</value>
 					</li>
 					
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Brain_GenI"]/description</xpath>
-						<value>
-							<description>Install an entropic neural enchanter into a pawn.</description>
-						</value>
-					</li>
-					
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Brain_GenII"]/description</xpath>
-						<value>
-							<description>Install an abyssal neural enchanter into a pawn.</description>
-						</value>
-					</li>
-					
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Heart_GenI"]/label</xpath>
-						<value>
-							<label>Powering Through The Void</label>
-						</value>
-					</li>
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Heart_GenI"]/description</xpath>
-						<value>
-							<description>Install an entropic heart into a pawn</description>
-						</value>
-					</li>
-                    
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Heart_GenII"]/description</xpath>
-						<value>
-							<description>Install an abyssal heart into a pawn</description>
-						</value>
-					</li>
-					
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Eye_GenI"]/description</xpath>
-						<value>
-							<description>Install an entropic eye into a pawn.</description>
-						</value>
-					</li>
-					
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_HediffTracker_Eye_GenII"]/description</xpath>
-						<value>
-							<description>Install an abyssal eye into a pawn.</description>
-						</value>
-					</li>
-					
 				</operations>
 			</match>
 			</li>
