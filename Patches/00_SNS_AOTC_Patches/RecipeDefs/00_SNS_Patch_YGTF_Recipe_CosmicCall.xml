@@ -29,13 +29,6 @@
 					<description>Pattern Lavish Meals from pure Abyssal Matter.</description>
 				</value>
 			</li>
-			<!-- Gen1 Meal -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_MealGenI"]/description</xpath>
-				<value>
-					<description>Pattern Luxurious Meals from pure Abyssal Matter.</description>
-				</value>
-			</li>
 			<!-- Gen1 Nutrient Bar -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicCall_NutrientBarGenI"]/description</xpath>

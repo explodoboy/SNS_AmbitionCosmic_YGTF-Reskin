@@ -7,60 +7,46 @@
     </mods>
 	<match Class="PatchOperationSequence"> 
 		<operations>
-			<!-- Gen1 Meal x1 -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Meal_Normal_GenI"]/description</xpath>
-				<value>
-					<description>Cook a luxurious meal from one ingredient. Some ingredients are wasted, but not as many as Lavish meals typically waste.</description>
-				</value>
-			</li>
-			<!-- Gen1 Meal x4 -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Bulk_Meal_Normal_GenI"]/description</xpath>
-				<value>
-					<description>Cook four luxurious meals from one ingredient. Some ingredients are wasted, but not as many as Lavish meals typically waste.\n\nNote: Bulk cooking luxurious meals is 15% faster overall than cooking 4 luxurious meals individually, not counting time to collect and transport cooking materials.</description>
-				</value>
-			</li>
 			<!-- Gen1 Nutrient Bar x5 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Meal_Nutrient_GenI"]/description</xpath>
 				<value>
-					<description>Make five nutrient bars from one ingredient. Nutrient bars take a while to prepare, but are more nutrient efficient than even Nutrient Paste.\n\nNote: You effectively get 5 times the food from the same nutrients that would be normally put into making meals.</description>
+					<description>Make five nutrient bars made through the further processing of nutrient paste.</description>
 				</value>
 			</li>
 			<!-- Gen1 Nutrient Bar x25 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Bulk_Meal_Nutrient_GenI"]/description</xpath>
 				<value>
-					<description>Make twenty-five nutrient bars from one ingredient. Nutrient bars take a while to prepare, but are more nutrient efficient than even Nutrient Paste.\n\nNote: You effectively get 5 times the food from the same nutrients that would be normally put into making meals.\n\nNote: Bulk cooking nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
+					<description>Make twenty-five nutrient bars made through the further processing of nutrient paste.\n\nNote: Bulk making nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
 				</value>
 				
 			</li><!-- Gen2 Meal x1 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Meal_Normal_GenII"]/description</xpath>
 				<value>
-					<description>Enhance a luxurious or lavish meal with Abyssal Matter.</description>
+					<description>Enhance a lavish meal with Abyssal Matter.</description>
 				</value>
 			</li>
 			<!-- Gen2 Meal x4 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Bulk_Meal_Normal_GenII"]/description</xpath>
 				<value>
-					<description>Enhance five Nutrient Bars with Cosmic Alloy and Cosmic Matter.\n\nNote: You effectively get 5 times the food from the same nutrients that would be normally put into making meals.</description>
+					<description>Enhance four lavish meals with Abyssal Matter.\n\nNote: Bulk cooking decadent meals is 15% faster overall than cooking 4 decadent meals individually, not counting time to collect and transport cooking materials.</description>
 				</value>
 			</li>
 			<!-- Gen2 Nutrient Bar x5 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Meal_Nutrient_GenII"]/description</xpath>
 				<value>
-					<description>Enhance 25 Nutrient Bars with Abyssal Alloy and Abyssal Matter.</description>
+					<description>Make five advanced nutrient bars through the further processing of nutrient paste using Abyssal Alloy and Abyssal Matter.\n\nNote: Advanced nutrient bars have 10% more nutrition value than nutrient paste.</description>
 				</value>
 			</li>
 			<!-- Gen2 Nutrient Bar x25 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Meal_Bulk_Nutrient_GenII"]/description</xpath>
 				<value>
-					<description>Enhance five Nutrient Bars with Abyssal Alloy and Abyssal Matter.\n\nNote: Bulk cooking advanced nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
+					<description>Make twenty-five advanced nutrient bars through the further processing of nutrient paste using Abyssal Alloy and Abyssal Matter.\n\nNote 1: Advanced nutrient bars have 10% more nutrition value than nutrient paste.\n\nNote 2: Bulk making advanced nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
 				</value>
 			</li>
 			<!-- Gen3 Meal x1 -->
@@ -74,21 +60,21 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Bulk_Meal_Normal_GenIII"]/description</xpath>
 				<value>
-					<description>Enhance sixteen decadent meals with Eternal Fabric..\n\nNote: Bulk cooking decadent meals is 15% faster overall than cooking 4 decadent meals individually, not counting time to collect and transport cooking materials.</description>
+					<description>Enhance sixteen decadent meals with Eternal Fabric.\n\nNote: Bulk cooking decadent meals is 15% faster overall than cooking 4 decadent meals individually, not counting time to collect and transport cooking materials.</description>
 				</value>
 			</li>
 			<!-- Gen3 Nutrient Bar x5 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Meal_Nutrient_GenIII"]/description</xpath>
 				<value>
-					<description>Enhance ten advanced Nutrient Bars with Eternal Fabric.</description>
+					<description>Make ten luxurious nutrient bars through the further processing of nutrient paste using Eternal Fabric.\n\nNote: Luxurious nutrient bars have 20% more nutrition value than nutrient paste.</description>
 				</value>
 			</li>
 			<!-- Gen3 Nutrient Bar x25 -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Recipe_Bulk_Meal_Nutrient_GenIII"]/description</xpath>
 				<value>
-					<description>Enhance fifty advanced nutrient bars with Eternal Fabric.\n\nNote: Bulk cooking luxurious nutrient bars is 15% faster overall than cooking luxurious nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
+					<description>Make fifty luxurious nutrient bars through the further processing of nutrient paste using Eternal Fabric.\n\nNote 1: Luxurious nutrient bars have 20% more nutrition value than nutrient paste.\n\nNote 2: Bulk making luxurious nutrient bars is 15% faster overall than cooking luxurious nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
 				</value>
 			</li>
 		</operations>

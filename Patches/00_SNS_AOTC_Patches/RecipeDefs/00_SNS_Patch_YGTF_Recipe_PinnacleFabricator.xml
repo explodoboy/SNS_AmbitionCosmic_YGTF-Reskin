@@ -14,14 +14,6 @@
 					<jobString>Atomically Constructing</jobString>
 				</value>
 			</li -->
-			
-			<!-- Gen1 Meal -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_MealGenI"]/description</xpath>
-				<value>
-					<description>Pattern a stack of Luxurious Meals from nothingness.</description>
-				</value>
-			</li>
 			<!-- Gen1 Nutrient Bar -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="SNS_Production_PinnacleFabricator_NutrientBarGenI"]/description</xpath>

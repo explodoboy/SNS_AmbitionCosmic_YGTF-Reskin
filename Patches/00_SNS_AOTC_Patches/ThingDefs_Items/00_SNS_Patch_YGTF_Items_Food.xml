@@ -55,22 +55,6 @@
 				</value>
 			</li>
 			
-			<!-- Meal Gen1 -->
-			<!-- Item name -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenI"]/label</xpath>
-				<value>
-					<label>luxurious meal</label>
-				</value>
-			</li>
-			<!-- Item description -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenI"]/description</xpath>
-				<value>
-					<description>A true masterpiece of the culinary arts, this meal is equally as high-quality as the Lavish meal while needing only a single main ingredient to make. This meal is also prepared in a way that it will last a lot longer than most other meals before it spoils.</description>
-				</value>
-			</li>
-			
 			<!-- Meal Gen2 -->
 			<!-- Item name -->
 			<li Class="PatchOperationReplace">
